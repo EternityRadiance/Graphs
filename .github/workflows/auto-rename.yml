@@ -42,7 +42,7 @@ jobs:
         
         console.log('=== ОБРАБОТКА ФАЙЛОВ ИЗ ПАПКИ INPUT ===');
         
-        // Проверяем существование папок (должны существовать после предыдущего шага)
+        // Проверяем существование папок
         if (!fs.existsSync('input')) {
           fs.mkdirSync('input', { recursive: true });
         }
@@ -55,8 +55,6 @@ jobs:
         const inputFiles = fs.readdirSync('input')
           .filter(f => f !== '.gitkeep' && f !== '.gitignore');
         console.log('📥 Файлы в input:', inputFiles);
-        
-        // ... остальной код обработки ...
         EOF
         
     - name: Commit folder structure and changes
