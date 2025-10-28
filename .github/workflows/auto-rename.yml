@@ -75,6 +75,6 @@ jobs:
         if git diff --staged --quiet; then
           echo "Нет изменений для коммита"
         else
-          git commit -m "Auto-process: обработка файлов и обновление структуры"
+          git commit -m "Added"
           echo "Изменения закоммичены"
         fi
