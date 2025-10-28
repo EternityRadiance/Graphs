@@ -1,0 +1,80 @@
+name: Auto Rename Files
+
+on:
+  push:
+    paths:
+      - 'input/**'
+  workflow_dispatch:
+
+jobs:
+  process-files:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        
+    - name: Create folders if they don't exist
+      run: |
+        # Создаем папки если их нет
+        mkdir -p input data
+        
+        # Создаем .gitkeep файлы если папки пустые
+        if [ ! -f "input/.gitkeep" ]; then
+          echo "Folder for user input files" > input/.gitkeep
+        fi
+        
+        if [ ! -f "data/.gitkeep" ]; then
+          echo "Folder for processed graph files" > data/.gitkeep
+        fi
+        
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: Process and rename files
+      run: |
+        node << 'EOF'
+        const fs = require('fs');
+        const path = require('path');
+        
+        console.log('=== ОБРАБОТКА ФАЙЛОВ ИЗ ПАПКИ INPUT ===');
+        
+        // Проверяем существование папок (должны существовать после предыдущего шага)
+        if (!fs.existsSync('input')) {
+          fs.mkdirSync('input', { recursive: true });
+        }
+        
+        if (!fs.existsSync('data')) {
+          fs.mkdirSync('data', { recursive: true });
+        }
+        
+        // Получаем файлы из input, игнорируя .gitkeep
+        const inputFiles = fs.readdirSync('input')
+          .filter(f => f !== '.gitkeep' && f !== '.gitignore');
+        console.log('📥 Файлы в input:', inputFiles);
+        
+        // ... остальной код обработки ...
+        EOF
+        
+    - name: Commit folder structure and changes
+      run: |
+        # Добавляем .gitkeep файлы если они были созданы
+        git add input/.gitkeep data/.gitkeep || true
+        
+        # Добавляем остальные изменения
+        git add .
+        
+        # Настраиваем пользователя
+        git config user.name 'github-actions[bot]'
+        git config user.email 'github-actions[bot]@users.noreply.github.com'
+        
+        # Коммитим если есть изменения
+        if git diff --staged --quiet; then
+          echo "Нет изменений для коммита"
+        else
+          git commit -m "Auto-process: обработка файлов и обновление структуры"
+          echo "Изменения закоммичены"
+        fi
