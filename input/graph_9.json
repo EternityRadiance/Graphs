@@ -1,0 +1,18 @@
+{
+  "author": "Румянцев Александр Алексеевич",
+  "properties": {
+    "directed": false,
+    "weighted": true,
+    "connected": true
+  },
+  "size": "small",
+  "vertices": 1,
+  "edges": 1,
+  "edges_list": [
+    {
+      "source": 1,
+      "target": 1,
+      "weight": 19
+    }
+  ]
+}

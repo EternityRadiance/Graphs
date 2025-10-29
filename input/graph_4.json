@@ -1,0 +1,103 @@
+{
+  "author": "Румянцев Александр Алексеевич",
+  "properties": {
+    "directed": false,
+    "weighted": false,
+    "connected": true
+  },
+  "size": "small",
+  "vertices": 10,
+  "edges": 18,
+  "edges_list": [
+    {
+      "source": 1,
+      "target": 9,
+      "weight": 0
+    },
+    {
+      "source": 2,
+      "target": 8,
+      "weight": 0
+    },
+    {
+      "source": 3,
+      "target": 7,
+      "weight": 0
+    },
+    {
+      "source": 4,
+      "target": 5,
+      "weight": 0
+    },
+    {
+      "source": 4,
+      "target": 8,
+      "weight": 0
+    },
+    {
+      "source": 4,
+      "target": 9,
+      "weight": 0
+    },
+    {
+      "source": 5,
+      "target": 4,
+      "weight": 0
+    },
+    {
+      "source": 5,
+      "target": 7,
+      "weight": 0
+    },
+    {
+      "source": 6,
+      "target": 7,
+      "weight": 0
+    },
+    {
+      "source": 7,
+      "target": 3,
+      "weight": 0
+    },
+    {
+      "source": 7,
+      "target": 5,
+      "weight": 0
+    },
+    {
+      "source": 7,
+      "target": 6,
+      "weight": 0
+    },
+    {
+      "source": 8,
+      "target": 2,
+      "weight": 0
+    },
+    {
+      "source": 8,
+      "target": 4,
+      "weight": 0
+    },
+    {
+      "source": 9,
+      "target": 1,
+      "weight": 0
+    },
+    {
+      "source": 9,
+      "target": 4,
+      "weight": 0
+    },
+    {
+      "source": 9,
+      "target": 10,
+      "weight": 0
+    },
+    {
+      "source": 10,
+      "target": 9,
+      "weight": 0
+    }
+  ]
+}
