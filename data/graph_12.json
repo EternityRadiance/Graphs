@@ -1,31 +1,17 @@
 {
- "author": "Белозёров Роман",
+ "author": "Румянцев Александр",
  "properties": {
   "directed": false,
-  "weighted": true,
-  "connected": false
+  "weighted": false,
+  "connected": true
  },
- "size": "medium",
- "vertices": 40,
- "edges": 18,
+ "size": "small",
+ "vertices": 3,
+ "edges": 4,
  "edges_list": [
-  {"source": 1, "target": 3, "weight": 78},
-  {"source": 1, "target": 11, "weight": 85},
-  {"source": 2, "target": 23, "weight": 64},
-  {"source": 4, "target": 33, "weight": 58},
-  {"source": 6, "target": 33, "weight": 20},
-  {"source": 9, "target": 25, "weight": 25},
-  {"source": 10, "target": 21, "weight": 30},
-  {"source": 10, "target": 37, "weight": 19},
-  {"source": 12, "target": 13, "weight": 21},
-  {"source": 12, "target": 19, "weight": 75},
-  {"source": 14, "target": 16, "weight": 9},
-  {"source": 17, "target": 32, "weight": 64},
-  {"source": 19, "target": 24, "weight": 18},
-  {"source": 20, "target": 31, "weight": 32},
-  {"source": 21, "target": 37, "weight": 69},
-  {"source": 22, "target": 28, "weight": 96},
-  {"source": 32, "target": 35, "weight": 57},
-  {"source": 33, "target": 35, "weight": 65}
+  {"source": 1, "target": 2, "weight": 0},
+  {"source": 1, "target": 3, "weight": 0},
+  {"source": 2, "target": 1, "weight": 0},
+  {"source": 3, "target": 1, "weight": 0}
  ]
 }

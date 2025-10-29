@@ -3,35 +3,15 @@
  "properties": {
   "directed": false,
   "weighted": true,
-  "connected": true
+  "connected": false
  },
- "size": "small",
- "vertices": 9,
- "edges": 24,
+ "size": "medium",
+ "vertices": 44,
+ "edges": 4,
  "edges_list": [
-  {"source": 1, "target": 2, "weight": 21},
-  {"source": 1, "target": 6, "weight": 49},
-  {"source": 1, "target": 9, "weight": 39},
-  {"source": 2, "target": 1, "weight": 21},
-  {"source": 2, "target": 5, "weight": 33},
-  {"source": 2, "target": 6, "weight": 68},
-  {"source": 2, "target": 7, "weight": 90},
-  {"source": 3, "target": 5, "weight": 24},
-  {"source": 4, "target": 6, "weight": 99},
-  {"source": 4, "target": 7, "weight": 25},
-  {"source": 4, "target": 8, "weight": 85},
-  {"source": 4, "target": 9, "weight": 14},
-  {"source": 5, "target": 2, "weight": 33},
-  {"source": 5, "target": 3, "weight": 24},
-  {"source": 6, "target": 1, "weight": 49},
-  {"source": 6, "target": 2, "weight": 68},
-  {"source": 6, "target": 4, "weight": 99},
-  {"source": 7, "target": 2, "weight": 90},
-  {"source": 7, "target": 4, "weight": 25},
-  {"source": 7, "target": 9, "weight": 28},
-  {"source": 8, "target": 4, "weight": 85},
-  {"source": 9, "target": 1, "weight": 39},
-  {"source": 9, "target": 4, "weight": 14},
-  {"source": 9, "target": 7, "weight": 28}
+  {"source": 6, "target": 28, "weight": 37},
+  {"source": 28, "target": 6, "weight": 37},
+  {"source": 40, "target": 42, "weight": 83},
+  {"source": 42, "target": 40, "weight": 83}
  ]
 }

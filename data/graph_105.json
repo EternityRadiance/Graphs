@@ -3,12 +3,13 @@
  "properties": {
   "directed": false,
   "weighted": false,
-  "connected": true
+  "connected": false
  },
- "size": "small",
- "vertices": 1,
- "edges": 1,
+ "size": "large",
+ "vertices": 79,
+ "edges": 2,
  "edges_list": [
-  {"source": 1, "target": 1, "weight": 0}
+  {"source": 45, "target": 60, "weight": 0},
+  {"source": 60, "target": 45, "weight": 0}
  ]
 }
