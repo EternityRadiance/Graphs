@@ -1,4 +1,4 @@
-name: Auto Normalize Graph Files and Count
+name: Auto Normalize Graph Files
 
 on:
   push:
