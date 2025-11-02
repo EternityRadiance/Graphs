@@ -23,61 +23,71 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Normalize graph files
-        run: |
-          echo "=== НОРМАЛИЗАЦИЯ ФАЙЛОВ В data ==="
+      name: Normalize graph files
+run: |
+  echo "=== НОРМАЛИЗАЦИЯ ФАЙЛОВ В data ==="
 
-          DIR="data"
-          cd "$DIR" || exit
+  DIR="data"
+  cd "$DIR" || exit
 
-          # Создаем временную директорию для безопасности
-          mkdir -p temp_rename
+  # Создаем временную директорию для безопасности
+  mkdir -p temp_rename
 
-          # Получаем и сортируем файлы
-          FILES=$(find . -maxdepth 1 -name 'graph_*.json' | sort -V)
-          
-          # Проверяем нумерацию
-          COUNT=1
-          NEEDS_RENAME=false
-          RENAME_LIST=""
+  # Получаем и сортируем файлы
+  FILES=$(find . -maxdepth 1 -name 'graph_*.json' | sort -V)
+  
+  # Проверяем, есть ли файлы вообще
+  if [ -z "$FILES" ]; then
+    echo "ℹ️ Нет graph_*.json файлов для нормализации"
+    rmdir temp_rename
+    exit 0
+  fi
 
-          for FILE in $FILES; do
-            FILE=$(basename "$FILE")
-            EXPECTED="graph_${COUNT}.json"
-            if [ "$FILE" != "$EXPECTED" ]; then
-              NEEDS_RENAME=true
-              RENAME_LIST="${RENAME_LIST}${FILE} -> ${EXPECTED}\n"
-            fi
-            COUNT=$((COUNT + 1))
-          done
+  # Проверяем нумерацию
+  COUNT=1
+  NEEDS_RENAME=false
+  RENAME_LIST=""
 
-          if [ "$NEEDS_RENAME" = "false" ]; then
-            echo "✅ Файлы уже нормализованы"
-            exit 0
-          fi
+  for FILE in $FILES; do
+    FILE=$(basename "$FILE")
+    EXPECTED="graph_${COUNT}.json"
+    if [ "$FILE" != "$EXPECTED" ]; then
+      NEEDS_RENAME=true
+      RENAME_LIST="${RENAME_LIST}${FILE} -> ${EXPECTED}\n"
+    fi
+    COUNT=$((COUNT + 1))
+  done
 
-          echo "📋 План переименования:"
-          echo -e "$RENAME_LIST"
+  if [ "$NEEDS_RENAME" = "false" ]; then
+    echo "✅ Файлы уже нормализованы"
+    rmdir temp_rename
+    exit 0
+  fi
 
-          # Выполняем переименование через промежуточные имена
-          COUNT=1
-          for FILE in $FILES; do
-            FILE=$(basename "$FILE")
-            mv "$FILE" "temp_rename/file_${COUNT}.tmp"
-            COUNT=$((COUNT + 1))
-          done
+  echo "📋 План переименования:"
+  echo -e "$RENAME_LIST"
 
-          # Присваиваем окончательные имена
-          COUNT=1
-          for TMP_FILE in temp_rename/*.tmp; do
-            NEW_NAME="graph_${COUNT}.json"
-            mv "$TMP_FILE" "$NEW_NAME"
-            echo "✅ Переименовано: graph_*.json -> $NEW_NAME"
-            COUNT=$((COUNT + 1))
-          done
+  # Выполняем переименование через промежуточные имена
+  COUNT=1
+  for FILE in $FILES; do
+    FILE=$(basename "$FILE")
+    mv "$FILE" "temp_rename/file_${COUNT}.tmp"
+    COUNT=$((COUNT + 1))
+  done
 
-          # Убираем временную директорию
-          rmdir temp_rename 2>/dev/null || true
+  # Присваиваем окончательные имена - ВАЖНО: сортируем временные файлы!
+  TMP_FILES=$(find temp_rename -name '*.tmp' | sort -V)
+  
+  COUNT=1
+  for TMP_FILE in $TMP_FILES; do
+    NEW_NAME="graph_${COUNT}.json"
+    mv "$TMP_FILE" "$NEW_NAME"
+    echo "✅ Переименовано: ${TMP_FILE##*/} -> $NEW_NAME"
+    COUNT=$((COUNT + 1))
+  done
+
+  # Убираем временную директорию
+  rmdir temp_rename
 
       - name: Counting Authors
         run: |
