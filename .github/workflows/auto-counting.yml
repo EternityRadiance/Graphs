@@ -1,7 +1,10 @@
 name: Auto Counting Authors
-
 on:
   push:
+    paths:
+      - 'data/**'
+  pull_request:
+    types: [closed]
     paths:
       - 'data/**'
   workflow_dispatch:
