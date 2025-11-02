@@ -1,0 +1,15 @@
+{
+ "author": "Румянцев Александр",
+ "properties": {
+  "directed": false,
+  "weighted": true,
+  "connected": false
+ },
+ "size": "medium",
+ "vertices": 44,
+ "edges": 2,
+ "edges_list": [
+  {"source": 6, "target": 26, "weight": 68},
+  {"source": 26, "target": 6, "weight": 68}
+ ]
+}
