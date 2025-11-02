@@ -9,12 +9,12 @@ on:
 jobs:
   count-authors:
     runs-on: ubuntu-latest
-    permissions:  # Исправлено: было premissions
+    permissions:
       contents: write
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4  # Исправлено: было chechkout
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -24,32 +24,21 @@ jobs:
           echo "=== Подсчёт кол-во графов на автора ==="
           FILE="author-graphs.txt"
           printf 'Автор\tКол-во Графов\n' > "$FILE"
-          COUNT_DIR="data"
-          cd "$COUNT_DIR" || exit  # Исправлено: было cd "$DIR"
-
-          # Создаем временный файл для результатов
-          TEMP_FILE=$(mktemp)
           
           # Обрабатываем все JSON файлы в data
-          find . -name "*.json" -exec grep -h '"author":' {} \; | \
+          find data -name "*.json" -exec grep -h '"author":' {} \; | \
           awk -F'"' '{print $4}' | sort | \
-          uniq -c | \
-          while read count author; do 
-            printf "$author\t$count\n" >> "$TEMP_FILE"
-          done
-          
-          # Сортируем по количеству графов (по убыванию) и записываем в итоговый файл
-          sort -k2,2nr "$TEMP_FILE" >> "../$FILE"
-          rm "$TEMP_FILE"
+          uniq -c | sort -nr | \
+          awk '{print $2 "\t" $1}' >> "$FILE"
           
           echo "=== Результат ==="
-          cat "../$FILE"
+          cat "$FILE"
 
       - name: Commit and push
         run: |
-          git config --global user.name 'github-actions[bot]'  # Исправлено: было githib
+          git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add author-graphs.txt  # Исправлено: было git add data
+          git add author-graphs.txt
           if git diff --staged --quiet; then
             echo "Нет изменений для коммита"
           else
