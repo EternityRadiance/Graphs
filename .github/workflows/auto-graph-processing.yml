@@ -35,19 +35,17 @@ jobs:
 
           # Получаем и сортируем файлы
           FILES=$(find . -maxdepth 1 -name 'graph_*.json' | sort -V)
-  
           # Проверяем, есть ли файлы вообще
           if [ -z "$FILES" ]; then
             echo "ℹ️ Нет graph_*.json файлов для нормализации"
             rmdir temp_rename
             exit 0
           fi
-
+          
           # Проверяем нумерацию
           COUNT=1
           NEEDS_RENAME=false
           RENAME_LIST=""
-
           for FILE in $FILES; do
             FILE=$(basename "$FILE")
             EXPECTED="graph_${COUNT}.json"
@@ -57,13 +55,13 @@ jobs:
             fi
             COUNT=$((COUNT + 1))
           done
-
+          
           if [ "$NEEDS_RENAME" = "false" ]; then
             echo "✅ Файлы уже нормализованы"
             rmdir temp_rename
             exit 0
           fi
-
+          
           echo "📋 План переименования:"
           echo -e "$RENAME_LIST"
 
