@@ -30,28 +30,64 @@ jobs:
           DIR="data"
           cd "$DIR" || exit
 
-          # Получаем файлы graph_*.json, сортировка по числу
-          FILES=$(ls graph_*.json 2>/dev/null | sort -V)
+          # Создаем временную директорию для безопасности
+          mkdir -p temp_rename
+
+          # Получаем и сортируем файлы
+          FILES=$(find . -maxdepth 1 -name 'graph_*.json' | sort -V)
+          
+          # Проверяем нумерацию
           COUNT=1
+          NEEDS_RENAME=false
+          RENAME_LIST=""
 
-          # Переименовываем во временные имена для безопасности
           for FILE in $FILES; do
-            mv "$FILE" "$FILE.tmp"
-          done
-
-          # Даем нормализованные имена
-          for FILE in *.tmp; do
-            NEW_NAME="graph_${COUNT}.json"
-            mv "$FILE" "$NEW_NAME"
-            echo "Переименовано: $FILE -> $NEW_NAME"
+            FILE=$(basename "$FILE")
+            EXPECTED="graph_${COUNT}.json"
+            if [ "$FILE" != "$EXPECTED" ]; then
+              NEEDS_RENAME=true
+              RENAME_LIST="${RENAME_LIST}${FILE} -> ${EXPECTED}\n"
+            fi
             COUNT=$((COUNT + 1))
           done
+
+          if [ "$NEEDS_RENAME" = "false" ]; then
+            echo "✅ Файлы уже нормализованы"
+            exit 0
+          fi
+
+          echo "📋 План переименования:"
+          echo -e "$RENAME_LIST"
+
+          # Выполняем переименование через промежуточные имена
+          COUNT=1
+          for FILE in $FILES; do
+            FILE=$(basename "$FILE")
+            mv "$FILE" "temp_rename/file_${COUNT}.tmp"
+            COUNT=$((COUNT + 1))
+          done
+
+          # Присваиваем окончательные имена
+          COUNT=1
+          for TMP_FILE in temp_rename/*.tmp; do
+            NEW_NAME="graph_${COUNT}.json"
+            mv "$TMP_FILE" "$NEW_NAME"
+            echo "✅ Переименовано: graph_*.json -> $NEW_NAME"
+            COUNT=$((COUNT + 1))
+          done
+
+          # Убираем временную директорию
+          rmdir temp_rename 2>/dev/null || true
 
       - name: Commit and push changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add data
-          git commit -m "Auto-normalize graph files in data" || echo "Нет изменений для коммита"
-          git push
-
+          git add -A
+          if ! git diff --staged --quiet; then
+            git commit -m "Auto-normalize graph files in data"
+            git push
+            echo "✅ Изменения запушены"
+          else
+            echo "ℹ️ Нет изменений для коммита"
+          fi

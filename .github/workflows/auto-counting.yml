@@ -1,4 +1,4 @@
-name: Auto Counteng Authors
+name: Auto Counting Authors
 
 on:
   push:
@@ -9,12 +9,12 @@ on:
 jobs:
   count-authors:
     runs-on: ubuntu-latest
-    premissions:
+    permissions:  # Исправлено: было premissions
       contents: write
 
     steps:
       - name: Checkout repository
-        uses: actions/chechkout@v4
+        uses: actions/checkout@v4  # Исправлено: было chechkout
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -25,21 +25,34 @@ jobs:
           FILE="author-graphs.txt"
           printf 'Автор\tКол-во Графов\n' > "$FILE"
           COUNT_DIR="data"
-          cd "$DIR" || exit
+          cd "$COUNT_DIR" || exit  # Исправлено: было cd "$DIR"
 
-        find . -name "*.json" -exec grep -h '"author":' {} \; | \
-        awk -F'"' '{print $4}' | sort | \
-        uniq -c | \
-        while read count author; do 
-          printf "$author\t$count\n" >> "../$FILE"
-        done
-
+          # Создаем временный файл для результатов
+          TEMP_FILE=$(mktemp)
+          
+          # Обрабатываем все JSON файлы в data
+          find . -name "*.json" -exec grep -h '"author":' {} \; | \
+          awk -F'"' '{print $4}' | sort | \
+          uniq -c | \
+          while read count author; do 
+            printf "$author\t$count\n" >> "$TEMP_FILE"
+          done
+          
+          # Сортируем по количеству графов (по убыванию) и записываем в итоговый файл
+          sort -k2,2nr "$TEMP_FILE" >> "../$FILE"
+          rm "$TEMP_FILE"
+          
+          echo "=== Результат ==="
+          cat "../$FILE"
 
       - name: Commit and push
         run: |
-          git config --global user.name 'githib-actions[bot]'
+          git config --global user.name 'github-actions[bot]'  # Исправлено: было githib
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add data
-          git commit -m "Auto-normalize graph files in data" || echo "Нет изменений для коммита"
-          git push
-
+          git add author-graphs.txt  # Исправлено: было git add data
+          if git diff --staged --quiet; then
+            echo "Нет изменений для коммита"
+          else
+            git commit -m "Auto update author graphs count"
+            git push
+          fi
