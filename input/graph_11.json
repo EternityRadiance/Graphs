@@ -1,0 +1,30 @@
+{
+ "author": "Шитов Михаил",
+ "properties": {
+  "weighted": true,
+  "simple": true,
+  "planar": true
+ },
+ "size": "medium",
+ "vertices": 17,
+ "edges": 17,
+ "edges_list": [
+  {"source": 17, "target": 1, "weight": 4},
+  {"source": 7, "target": 17, "weight": 96},
+  {"source": 6, "target": 12, "weight": 33},
+  {"source": 13, "target": 5, "weight": 52},
+  {"source": 7, "target": 11, "weight": 45},
+  {"source": 1, "target": 10, "weight": 35},
+  {"source": 16, "target": 10, "weight": 70},
+  {"source": 8, "target": 9, "weight": 56},
+  {"source": 15, "target": 8, "weight": 96},
+  {"source": 13, "target": 15, "weight": 61},
+  {"source": 6, "target": 7, "weight": 69},
+  {"source": 16, "target": 6, "weight": 87},
+  {"source": 3, "target": 14, "weight": 81},
+  {"source": 6, "target": 9, "weight": 86},
+  {"source": 3, "target": 17, "weight": 38},
+  {"source": 16, "target": 1, "weight": 87},
+  {"source": 13, "target": 7, "weight": 75}
+ ]
+}
