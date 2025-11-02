@@ -5,7 +5,7 @@
   "weighted": true,
   "connected": false
  },
- "size": "huge",
+ "size": "huges",
  "vertices": 197,
  "edges": 742,
  "edges_list": [
