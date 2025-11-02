@@ -1,16 +1,25 @@
 {
- "author": "Румянцев Александр",
- "properties": {
-  "directed": true,
-  "weighted": true,
-  "connected": false
- },
- "size": "small",
- "vertices": 3,
- "edges": 3,
- "edges_list": [
-  {"source": 1, "target": 3, "weight": 39},
-  {"source": 3, "target": 1, "weight": 25},
-  {"source": 3, "target": 2, "weight": 21}
- ]
+  "author": "Фофанов Артем",
+  "properties": {
+    "directed": true,
+    "weighted": false,
+    "connected": true
+  },
+  "size": "small",
+  "vertices": 4,
+  "edges": 12,
+  "edges_list": [
+    {"source": 4, "target": 1},
+    {"source": 3, "target": 4},
+    {"source": 2, "target": 3},
+    {"source": 1, "target": 3},
+    {"source": 3, "target": 2},
+    {"source": 2, "target": 1},
+    {"source": 1, "target": 4},
+    {"source": 3, "target": 1},
+    {"source": 4, "target": 3},
+    {"source": 4, "target": 2},
+    {"source": 1, "target": 2},
+    {"source": 2, "target": 4}
+  ]
 }

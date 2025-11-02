@@ -6,10 +6,10 @@
   "connected": false
  },
  "size": "large",
- "vertices": 55,
+ "vertices": 69,
  "edges": 2,
  "edges_list": [
-  {"source": 47, "target": 51, "weight": 34},
-  {"source": 51, "target": 47, "weight": 34}
+  {"source": 13, "target": 45, "weight": 54},
+  {"source": 45, "target": 13, "weight": 54}
  ]
 }
