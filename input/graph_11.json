@@ -1,0 +1,17 @@
+{
+  "author": "Кормаченко Илья",
+  "properties": {
+    "simple": false,
+    "mixed": true,
+    "empty": false
+  },
+  "size": "small",
+  "vertices": 2,
+  "edges": 4,
+  "edges_list": [
+    {"source": 1, "target": 1},
+    {"source": 1, "target": 1},
+    {"source": 1, "target": 2},
+    {"source": 1, "target": 2}
+  ]
+}
