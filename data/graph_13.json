@@ -3,19 +3,14 @@
  "properties": {
   "directed": true,
   "weighted": false,
-  "connected": true
+  "connected": false
  },
- "size": "small",
- "vertices": 4,
- "edges": 8,
+ "size": "large",
+ "vertices": 81,
+ "edges": 3,
  "edges_list": [
-  {"source": 1, "target": 2},
-  {"source": 1, "target": 4},
-  {"source": 2, "target": 1},
-  {"source": 2, "target": 4},
-  {"source": 3, "target": 1},
-  {"source": 3, "target": 2},
-  {"source": 4, "target": 1},
-  {"source": 4, "target": 3}
+  {"source": 3, "target": 51},
+  {"source": 5, "target": 56},
+  {"source": 70, "target": 37}
  ]
 }

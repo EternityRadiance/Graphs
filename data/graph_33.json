@@ -5,11 +5,11 @@
   "weighted": true,
   "connected": false
  },
- "size": "medium",
- "vertices": 44,
+ "size": "large",
+ "vertices": 55,
  "edges": 2,
  "edges_list": [
-  {"source": 6, "target": 26, "weight": 68},
-  {"source": 26, "target": 6, "weight": 68}
+  {"source": 47, "target": 51, "weight": 34},
+  {"source": 51, "target": 47, "weight": 34}
  ]
 }
