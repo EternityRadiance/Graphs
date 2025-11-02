@@ -1,0 +1,22 @@
+{
+ "author": "Белозёров Роман",
+ "properties": {
+  "directed": false,
+  "weighted": true,
+  "connected": false
+ },
+ "size": "small",
+ "vertices": 6,
+ "edges": 9,
+ "edges_list": [
+  {"source": 1, "target": 2, "weight": 4},
+  {"source": 1, "target": 3, "weight": 62},
+  {"source": 1, "target": 5, "weight": 59},
+  {"source": 2, "target": 3, "weight": 10},
+  {"source": 2, "target": 4, "weight": 1},
+  {"source": 2, "target": 5, "weight": 3},
+  {"source": 3, "target": 4, "weight": 4},
+  {"source": 3, "target": 5, "weight": 62},
+  {"source": 4, "target": 5, "weight": 72}
+ ]
+}
