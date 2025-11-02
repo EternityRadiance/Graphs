@@ -103,6 +103,7 @@ jobs:
           git add --all
           if ! git diff --staged --quiet; then
             git commit -m "Auto-processing graph"
+            git pull --rebase origin main
             git push
             echo "✅ Изменения запушены"
           else
