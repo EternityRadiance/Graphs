@@ -1,15 +1,14 @@
 {
-  "author": "Фофанов Артем",
-  "properties": {
-    "directed": true,
-    "weighted": false,
-    "connected": true
-  },
-  "size": "small",
-  "vertices": 2,
-  "edges": 2,
-  "edges_list": [
-    {"source": 2, "target": 1},
-    {"source": 1, "target": 2}
-  ]
+ "author": "Румянцев Александр",
+ "properties": {
+  "directed": true,
+  "weighted": false,
+  "connected": false
+ },
+ "size": "small",
+ "vertices": 9,
+ "edges": 1,
+ "edges_list": [
+  {"source": 8, "target": 7}
+ ]
 }

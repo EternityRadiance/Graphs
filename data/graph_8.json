@@ -1,37 +1,14 @@
 {
  "author": "Румянцев Александр",
  "properties": {
-  "directed": false,
-  "weighted": true,
-  "connected": true
+  "directed": true,
+  "weighted": false,
+  "connected": false
  },
- "size": "small",
- "vertices": 10,
- "edges": 24,
+ "size": "large",
+ "vertices": 54,
+ "edges": 1,
  "edges_list": [
-  {"source": 1, "target": 5, "weight": 78},
-  {"source": 1, "target": 8, "weight": 87},
-  {"source": 2, "target": 7, "weight": 96},
-  {"source": 3, "target": 5, "weight": 73},
-  {"source": 3, "target": 6, "weight": 98},
-  {"source": 3, "target": 7, "weight": 16},
-  {"source": 3, "target": 9, "weight": 48},
-  {"source": 4, "target": 6, "weight": 95},
-  {"source": 4, "target": 7, "weight": 55},
-  {"source": 4, "target": 8, "weight": 30},
-  {"source": 5, "target": 1, "weight": 78},
-  {"source": 5, "target": 3, "weight": 73},
-  {"source": 5, "target": 6, "weight": 77},
-  {"source": 5, "target": 10, "weight": 51},
-  {"source": 6, "target": 3, "weight": 98},
-  {"source": 6, "target": 4, "weight": 95},
-  {"source": 6, "target": 5, "weight": 77},
-  {"source": 7, "target": 2, "weight": 96},
-  {"source": 7, "target": 3, "weight": 16},
-  {"source": 7, "target": 4, "weight": 55},
-  {"source": 8, "target": 1, "weight": 87},
-  {"source": 8, "target": 4, "weight": 30},
-  {"source": 9, "target": 3, "weight": 48},
-  {"source": 10, "target": 5, "weight": 51}
+  {"source": 53, "target": 18}
  ]
 }
