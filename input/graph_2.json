@@ -1,0 +1,16 @@
+{
+  "author": "Фофанов Артем",
+  "properties": {
+    "directed": true,
+    "weighted": false,
+    "connected": true
+  },
+  "size": "small",
+  "vertices": 3,
+  "edges": 3,
+  "edges_list": [
+    {"source": 1, "target": 3},
+    {"source": 2, "target": 1},
+    {"source": 1, "target": 2}
+  ]
+}
