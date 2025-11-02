@@ -1,0 +1,51 @@
+name: Auto Counting Authors
+on:
+  push:
+    paths:
+      - 'data/**'
+  pull_request:
+    types: [closed]
+    paths:
+      - 'data/**'
+  workflow_dispatch:
+
+jobs:
+  count-authors:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Counting Authors
+        run: |
+          echo "=== Подсчёт кол-во графов на автора ==="
+          FILE="author-graphs.txt"
+          printf 'Автор\tКол-во Графов\n' > "$FILE"
+          
+          # Обрабатываем все JSON файлы в data
+         find data -name "*.json" -exec grep -h '"author":' {} \; | \
+          awk -F'"' '{print $4}' | sort | \
+          uniq -c | \
+          while read count author; do 
+            printf "$author\t$count\n" >> "../$FILE"
+          done          
+          echo "=== Результат ==="
+          cat "$FILE"
+
+      - name: Commit and push
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add author-graphs.txt
+          if git diff --staged --quiet; then
+            echo "Нет изменений для коммита"
+          else
+            git commit -m "Auto update author graphs count"
+            git push
+          fi
