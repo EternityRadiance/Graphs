@@ -104,6 +104,23 @@ jobs:
         
         console.log('🎉 Обработка завершена!');
         EOF
+
+    - name: Counting Authors
+      run: |
+          echo "=== Подсчёт кол-во графов на автора ==="
+          FILE="author-graphs.txt"
+          printf 'Автор\tКол-во Графов\n' > "$FILE"
+          
+          find data -name "*.json" -exec grep -h '"author":' {} \; | \
+          sed -n 's/.*"author":\s*"\([^"]*\)".*/\1/p' | \
+          sort | \
+          uniq -c | \
+          while read count author; do 
+            printf "%s\t%s\n" "$author" "$count" >> "$FILE"
+          done
+          
+          echo "=== Результат ==="
+          cat "$FILE"
         
     - name: Commit and push changes
       run: |
