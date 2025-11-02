@@ -1,37 +1,15 @@
 {
-  "author": "Фофанов Артем",
-  "properties": {
-    "directed": true,
-    "weighted": false,
-    "connected": true
-  },
-  "size": "small",
-  "vertices": 8,
-  "edges": 24,
-  "edges_list": [
-    {"source": 7, "target": 6},
-    {"source": 6, "target": 7},
-    {"source": 4, "target": 7},
-    {"source": 3, "target": 4},
-    {"source": 8, "target": 2},
-    {"source": 2, "target": 3},
-    {"source": 8, "target": 4},
-    {"source": 1, "target": 4},
-    {"source": 7, "target": 3},
-    {"source": 4, "target": 6},
-    {"source": 3, "target": 7},
-    {"source": 3, "target": 5},
-    {"source": 7, "target": 4},
-    {"source": 1, "target": 7},
-    {"source": 3, "target": 2},
-    {"source": 5, "target": 6},
-    {"source": 8, "target": 3},
-    {"source": 4, "target": 8},
-    {"source": 5, "target": 2},
-    {"source": 2, "target": 1},
-    {"source": 4, "target": 3},
-    {"source": 5, "target": 3},
-    {"source": 5, "target": 1},
-    {"source": 6, "target": 2}
-  ]
+ "author": "Румянцев Александр",
+ "properties": {
+  "directed": false,
+  "weighted": true,
+  "connected": false
+ },
+ "size": "large",
+ "vertices": 69,
+ "edges": 2,
+ "edges_list": [
+  {"source": 13, "target": 45, "weight": 54},
+  {"source": 45, "target": 13, "weight": 54}
+ ]
 }
