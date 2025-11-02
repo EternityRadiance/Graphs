@@ -26,11 +26,12 @@ jobs:
           printf 'Автор\tКол-во Графов\n' > "$FILE"
           
           # Обрабатываем все JSON файлы в data
-          find data -name "*.json" -exec grep -h '"author":' {} \; | \
+         find data -name "*.json" -exec grep -h '"author":' {} \; | \
           awk -F'"' '{print $4}' | sort | \
-          uniq -c | sort -nr | \
-          awk '{print $2 "\t" $1}' >> "$FILE"
-          
+          uniq -c | \
+          while read count author; do 
+            printf "$author\t$count\n" >> "../$FILE"
+          done          
           echo "=== Результат ==="
           cat "$FILE"
 
