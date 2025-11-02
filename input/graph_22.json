@@ -1,0 +1,18 @@
+{
+  "author": "Устюгов Дмитрий",
+  "properties": {
+    "mixed": false,
+    "full": false,
+    "double": true
+  },
+  "size": "small",
+  "vertices": 5,
+  "edges": 5,
+  "edges_list": [
+    {"source": 1, "target": 5, "weight": 69},
+    {"source": 2, "target": 5, "weight": 73},
+    {"source": 3, "target": 5, "weight": 25},
+    {"source": 2, "target": 4, "weight": 95},
+    {"source": 3, "target": 4, "weight": 11}
+  ]
+}

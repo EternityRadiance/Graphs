@@ -1,0 +1,30 @@
+{
+  "author": "Устюгов Дмитрий",
+  "properties": {
+    "mixed": false,
+    "full": false,
+    "double": true
+  },
+  "size": "medium",
+  "vertices": 18,
+  "edges": 17,
+  "edges_list": [
+    {"source": 1, "target": 18, "weight": 27},
+    {"source": 2, "target": 18, "weight": 94},
+    {"source": 3, "target": 18, "weight": 62},
+    {"source": 4, "target": 18, "weight": 59},
+    {"source": 5, "target": 18, "weight": 76},
+    {"source": 6, "target": 18, "weight": 19},
+    {"source": 7, "target": 18, "weight": 94},
+    {"source": 8, "target": 18, "weight": 63},
+    {"source": 9, "target": 18, "weight": 35},
+    {"source": 10, "target": 18, "weight": 3},
+    {"source": 11, "target": 18, "weight": 21},
+    {"source": 12, "target": 18, "weight": 65},
+    {"source": 13, "target": 18, "weight": 56},
+    {"source": 14, "target": 18, "weight": 62},
+    {"source": 15, "target": 18, "weight": 14},
+    {"source": 16, "target": 18, "weight": 20},
+    {"source": 17, "target": 18, "weight": 87}
+  ]
+}
