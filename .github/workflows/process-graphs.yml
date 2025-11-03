@@ -1,0 +1,48 @@
+name: Process Graph Requests
+
+on:
+  push:
+    paths:
+      - 'requests/**'
+    branches: [ main ]
+  workflow_dispatch:  # Позволяет запускать вручную
+
+jobs:
+  process-request:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Find latest request file
+      id: find-request
+      run: |
+        LATEST_REQUEST=$(ls -t requests/*.json | head -n1)
+        echo "latest_request=$LATEST_REQUEST" >> $GITHUB_OUTPUT
+        echo "Processing request: $LATEST_REQUEST"
+        
+    - name: Process request and create zip
+      id: process
+      run: |
+        # Устанавливаем Node.js (или используем Python/bash)
+        # Читаем запрос и создаем zip
+        node .github/scripts/process-request.js \
+          "${{ steps.find-request.outputs.latest_request }}" \
+          dist/graphs-bundle.zip
+          
+    - name: Upload zip as artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: graphs-bundle
+        path: dist/graphs-bundle.zip
+        retention-days: 30
+        
+    - name: Create GitHub Release
+      if: success()
+      uses: softprops/action-gh-release@v1
+      with:
+        files: dist/graphs-bundle.zip
+        tag_name: bundle-${{ github.run_id }}
+        name: "Graphs Bundle ${{ github.run_id }}"
+        body: "Automatically generated graphs bundle"
