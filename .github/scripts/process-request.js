@@ -22,7 +22,7 @@ const output = fs.createWriteStream(outputZip);
 const archive = archiver('zip', { zlib: { level: 9 } });
 
 output.on('close', () => {
-  console.log(`✅ Created zip with ${archive.pointer()} bytes, ${archive.finalize()} files`);
+  console.log(`✅ Created zip with ${archive.pointer()} bytes`);
 });
 
 archive.on('error', (err) => {
@@ -49,7 +49,7 @@ requestedGraphs.forEach(graphId => {
       console.log(`⏭️  Skipped graph_${graphId}.json - doesn't match filters`);
     }
   } else {
-    console.warn(`❌ Graph graph_${graphId}.json not found`);
+    console.warn(`❌ Graph graph_${graphId}.json not found in data/ directory`);
   }
 });
 
