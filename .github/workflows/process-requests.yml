@@ -1,0 +1,57 @@
+name: Process Graph Requests
+
+on:
+  push:
+    paths:
+      - 'requests/request_*.json'
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  process-graphs:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: Find and process latest request
+      id: process
+      run: |
+        # Находим последний файл запроса
+        LATEST_REQUEST=$(find requests -name "request_*.json" -type f | sort -r | head -n1)
+        echo "latest_request=$LATEST_REQUEST" >> $GITHUB_OUTPUT
+        echo "Processing: $LATEST_REQUEST"
+        
+        # Запускаем скрипт обработки
+        node .github/scripts/process-request.js "$LATEST_REQUEST" "graph-bundle.zip"
+        
+    - name: Upload bundle to release
+      uses: softprops/action-gh-release@v1
+      with:
+        files: graph-bundle.zip
+        tag_name: bundle-${{ github.run_id }}
+        name: "Graph Bundle ${{ github.run_id }}"
+        body: |
+          Автоматически собранный bundle графов
+          - Запрос: ${{ steps.process.outputs.latest_request }}
+          - Время: ${{ github.event.head_commit.timestamp }}
+          
+    - name: Create success comment (if from PR)
+      if: github.event_name == 'pull_request'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: `✅ Graph bundle готов! Скачать: [graph-bundle.zip](https://github.com/${{ github.repository }}/releases/download/bundle-${{ github.run_id }}/graph-bundle.zip)`
+          })
