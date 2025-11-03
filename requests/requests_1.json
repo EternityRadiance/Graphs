@@ -1,0 +1,9 @@
+{
+  "clientId": "user_456", 
+  "filters": {
+    "size": "large",
+    "properties": {
+      "connected": true
+    }
+  }
+}
