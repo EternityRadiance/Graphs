@@ -121,6 +121,11 @@ jobs:
           
           echo "=== Результат ==="
           cat "$FILE"
+    - name: Generate Meta File
+      run: |
+          echo "Запуск генерации файла с метаданными"
+          node ./.github/scripts/select_meta.js ./data ./meta.json && \
+          echo "Успешно"
         
     - name: Commit and push changes
       run: |
