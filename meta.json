@@ -1,0 +1,2202 @@
+{
+  "graph_1": {
+    "author": "Румянцев Александр",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "small",
+    "vertices": 10,
+    "edges": 24
+  },
+  "graph_2": {
+    "author": "Румянцев Александр",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": false
+    },
+    "size": "large",
+    "vertices": 81,
+    "edges": 3
+  },
+  "graph_3": {
+    "author": "Устюгов Дмитрий",
+    "properties": {
+      "mixed": false,
+      "full": true,
+      "double": false
+    },
+    "size": "small",
+    "vertices": 5,
+    "edges": 20
+  },
+  "graph_4": {
+    "author": "Румянцев Александр",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "small",
+    "vertices": 4,
+    "edges": 8
+  },
+  "graph_5": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "large",
+    "vertices": 67,
+    "edges": 1262
+  },
+  "graph_6": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "huge",
+    "vertices": 188,
+    "edges": 28607
+  },
+  "graph_7": {
+    "author": "Румянцев Александр",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "small",
+    "vertices": 10,
+    "edges": 1
+  },
+  "graph_8": {
+    "author": "Румянцев Александр",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "small",
+    "vertices": 8,
+    "edges": 9
+  },
+  "graph_9": {
+    "author": "Румянцев Александр",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "medium",
+    "vertices": 28,
+    "edges": 3
+  },
+  "graph_10": {
+    "author": "Румянцев Александр",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "medium",
+    "vertices": 44,
+    "edges": 2
+  },
+  "graph_11": {
+    "author": "Румянцев Александр",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "medium",
+    "vertices": 25,
+    "edges": 46
+  },
+  "graph_12": {
+    "author": "Румянцев Александр",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "medium",
+    "vertices": 20,
+    "edges": 3
+  },
+  "graph_13": {
+    "author": "Румянцев Александр",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "medium",
+    "vertices": 17,
+    "edges": 46
+  },
+  "graph_14": {
+    "author": "Румянцев Александр",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "large",
+    "vertices": 54,
+    "edges": 67
+  },
+  "graph_15": {
+    "author": "Румянцев Александр",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "large",
+    "vertices": 69,
+    "edges": 2
+  },
+  "graph_16": {
+    "author": "Румянцев Александр",
+    "properties": {
+      "directed": false,
+      "weighted": false,
+      "connected": false
+    },
+    "size": "large",
+    "vertices": 72,
+    "edges": 2
+  },
+  "graph_17": {
+    "author": "Румянцев Александр",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": false
+    },
+    "size": "small",
+    "vertices": 9,
+    "edges": 1
+  },
+  "graph_18": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "small",
+    "vertices": 8,
+    "edges": 24
+  },
+  "graph_19": {
+    "author": "Румянцев Александр",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "large",
+    "vertices": 55,
+    "edges": 2
+  },
+  "graph_20": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "mediums",
+    "vertices": 19,
+    "edges": 66
+  },
+  "graph_21": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "small",
+    "vertices": 2,
+    "edges": 2
+  },
+  "graph_22": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "huge",
+    "vertices": 163,
+    "edges": 1922
+  },
+  "graph_23": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "small",
+    "vertices": 6,
+    "edges": 26
+  },
+  "graph_24": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "small",
+    "vertices": 8,
+    "edges": 8
+  },
+  "graph_25": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "small",
+    "vertices": 4,
+    "edges": 9
+  },
+  "graph_26": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "medium",
+    "vertices": 37,
+    "edges": 774
+  },
+  "graph_27": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "medium",
+    "vertices": 39,
+    "edges": 901
+  },
+  "graph_28": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "huge",
+    "vertices": 112,
+    "edges": 6000
+  },
+  "graph_29": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "medium",
+    "vertices": 39,
+    "edges": 1062
+  },
+  "graph_30": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "medium",
+    "vertices": 31,
+    "edges": 497
+  },
+  "graph_31": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "medium",
+    "vertices": 18,
+    "edges": 24
+  },
+  "graph_32": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "large",
+    "vertices": 69,
+    "edges": 3517
+  },
+  "graph_33": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "medium",
+    "vertices": 43,
+    "edges": 1571
+  },
+  "graph_34": {
+    "author": "Румянцев Александр",
+    "properties": {
+      "directed": false,
+      "weighted": false,
+      "connected": false
+    },
+    "size": "medium",
+    "vertices": 25,
+    "edges": 2
+  },
+  "graph_35": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "small",
+    "vertices": 9,
+    "edges": 58
+  },
+  "graph_36": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "huge",
+    "vertices": 175,
+    "edges": 1611
+  },
+  "graph_37": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "medium",
+    "vertices": 50,
+    "edges": 2210
+  },
+  "graph_38": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "medium",
+    "vertices": 13,
+    "edges": 74
+  },
+  "graph_39": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "small",
+    "vertices": 6,
+    "edges": 17
+  },
+  "graph_40": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "small",
+    "vertices": 1,
+    "edges": null
+  },
+  "graph_41": {
+    "author": "Румянцев Александр",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "small",
+    "vertices": 3,
+    "edges": 6
+  },
+  "graph_42": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "large",
+    "vertices": 66,
+    "edges": 280
+  },
+  "graph_43": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "small",
+    "vertices": 10,
+    "edges": 47
+  },
+  "graph_44": {
+    "author": "Румянцев Александр",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": false
+    },
+    "size": "medium",
+    "vertices": 31,
+    "edges": 1
+  },
+  "graph_45": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "large",
+    "vertices": 71,
+    "edges": 2715
+  },
+  "graph_46": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "huge",
+    "vertices": 110,
+    "edges": 6562
+  },
+  "graph_47": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "huge",
+    "vertices": 160,
+    "edges": 14209
+  },
+  "graph_48": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "huge",
+    "vertices": 149,
+    "edges": 1504
+  },
+  "graph_49": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "medium",
+    "vertices": 50,
+    "edges": 1342
+  },
+  "graph_50": {
+    "author": "Румянцев Александр",
+    "properties": {
+      "directed": false,
+      "weighted": false,
+      "connected": false
+    },
+    "size": "large",
+    "vertices": 82,
+    "edges": 4
+  },
+  "graph_51": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "small",
+    "vertices": 4,
+    "edges": 12
+  },
+  "graph_52": {
+    "author": "Румянцев Александр",
+    "properties": {
+      "directed": false,
+      "weighted": false,
+      "connected": false
+    },
+    "size": "small",
+    "vertices": 5,
+    "edges": 2
+  },
+  "graph_53": {
+    "author": "Румянцев Александр",
+    "properties": {
+      "directed": false,
+      "weighted": false,
+      "connected": false
+    },
+    "size": "medium",
+    "vertices": 44,
+    "edges": 2
+  },
+  "graph_54": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "huge",
+    "vertices": 167,
+    "edges": 18612
+  },
+  "graph_55": {
+    "author": "Румянцев Александр",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "large",
+    "vertices": 91,
+    "edges": 107
+  },
+  "graph_56": {
+    "author": "Румянцев Александр",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "medium",
+    "vertices": 35,
+    "edges": 1
+  },
+  "graph_57": {
+    "author": "Румянцев Александр",
+    "properties": {
+      "directed": false,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "small",
+    "vertices": 10,
+    "edges": 18
+  },
+  "graph_58": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "large",
+    "vertices": 69,
+    "edges": 4542
+  },
+  "graph_59": {
+    "author": "Румянцев Александр",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "small",
+    "vertices": 3,
+    "edges": 3
+  },
+  "graph_60": {
+    "author": "Румянцев Александр",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "large",
+    "vertices": 67,
+    "edges": 94
+  },
+  "graph_61": {
+    "author": "Румянцев Александр",
+    "properties": {
+      "directed": false,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "medium",
+    "vertices": 17,
+    "edges": 32
+  },
+  "graph_62": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "huge",
+    "vertices": 143,
+    "edges": 12085
+  },
+  "graph_63": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "medium",
+    "vertices": 30,
+    "edges": 524
+  },
+  "graph_64": {
+    "author": "Румянцев Александр",
+    "properties": {
+      "directed": false,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "small",
+    "vertices": 4,
+    "edges": 6
+  },
+  "graph_65": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "large",
+    "vertices": 90,
+    "edges": 5135
+  },
+  "graph_66": {
+    "author": "Румянцев Александр",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": false
+    },
+    "size": "large",
+    "vertices": 67,
+    "edges": 2
+  },
+  "graph_67": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "large",
+    "vertices": 51,
+    "edges": 1029
+  },
+  "graph_68": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "huge",
+    "vertices": 149,
+    "edges": 14588
+  },
+  "graph_69": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "large",
+    "vertices": 63,
+    "edges": 2305
+  },
+  "graph_70": {
+    "author": "Устюгов Дмитрий",
+    "properties": {
+      "mixed": true,
+      "full": false,
+      "double": false
+    },
+    "size": "small",
+    "vertices": 8,
+    "edges": 21
+  },
+  "graph_71": {
+    "author": "Устюгов Дмитрий",
+    "properties": {
+      "mixed": false,
+      "full": false,
+      "double": true
+    },
+    "size": "large",
+    "vertices": 32,
+    "edges": 36
+  },
+  "graph_72": {
+    "author": "Устюгов Дмитрий",
+    "properties": {
+      "mixed": false,
+      "full": false,
+      "double": true
+    },
+    "size": "medium",
+    "vertices": 22,
+    "edges": 50
+  },
+  "graph_73": {
+    "author": "Устюгов Дмитрий",
+    "properties": {
+      "mixed": true,
+      "full": false,
+      "double": false
+    },
+    "size": "small",
+    "vertices": 6,
+    "edges": 7
+  },
+  "graph_74": {
+    "author": "Устюгов Дмитрий",
+    "properties": {
+      "mixed": false,
+      "full": false,
+      "double": true
+    },
+    "size": "medium",
+    "vertices": 17,
+    "edges": 45
+  },
+  "graph_75": {
+    "author": "Устюгов Дмитрий",
+    "properties": {
+      "mixed": false,
+      "full": false,
+      "double": true
+    },
+    "size": "large",
+    "vertices": 37,
+    "edges": 47
+  },
+  "graph_76": {
+    "author": "Устюгов Дмитрий",
+    "properties": {
+      "mixed": false,
+      "full": false,
+      "double": true
+    },
+    "size": "medium",
+    "vertices": 18,
+    "edges": 17
+  },
+  "graph_77": {
+    "author": "Устюгов Дмитрий",
+    "properties": {
+      "mixed": true,
+      "full": false,
+      "double": false
+    },
+    "size": "small",
+    "vertices": 4,
+    "edges": 6
+  },
+  "graph_78": {
+    "author": "Устюгов Дмитрий",
+    "properties": {
+      "mixed": false,
+      "full": true,
+      "double": false
+    },
+    "size": "large",
+    "vertices": 17,
+    "edges": 272
+  },
+  "graph_79": {
+    "author": "Румянцев Александр",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": false
+    },
+    "size": "large",
+    "vertices": 54,
+    "edges": 1
+  },
+  "graph_80": {
+    "author": "Устюгов Дмитрий",
+    "properties": {
+      "mixed": false,
+      "full": true,
+      "double": false
+    },
+    "size": "large",
+    "vertices": 16,
+    "edges": 240
+  },
+  "graph_81": {
+    "author": "Устюгов Дмитрий",
+    "properties": {
+      "mixed": false,
+      "full": true,
+      "double": false
+    },
+    "size": "medium",
+    "vertices": 14,
+    "edges": 182
+  },
+  "graph_82": {
+    "author": "Устюгов Дмитрий",
+    "properties": {
+      "mixed": true,
+      "full": false,
+      "double": false
+    },
+    "size": "medium",
+    "vertices": 20,
+    "edges": 32
+  },
+  "graph_83": {
+    "author": "Устюгов Дмитрий",
+    "properties": {
+      "mixed": true,
+      "full": false,
+      "double": false
+    },
+    "size": "small",
+    "vertices": 2,
+    "edges": 1
+  },
+  "graph_84": {
+    "author": "Устюгов Дмитрий",
+    "properties": {
+      "mixed": false,
+      "full": false,
+      "double": true
+    },
+    "size": "medium",
+    "vertices": 25,
+    "edges": 33
+  },
+  "graph_85": {
+    "author": "Устюгов Дмитрий",
+    "properties": {
+      "mixed": true,
+      "full": false,
+      "double": false
+    },
+    "size": "medium",
+    "vertices": 15,
+    "edges": 32
+  },
+  "graph_86": {
+    "author": "Устюгов Дмитрий",
+    "properties": {
+      "mixed": true,
+      "full": false,
+      "double": false
+    },
+    "size": "small",
+    "vertices": 2,
+    "edges": 1
+  },
+  "graph_87": {
+    "author": "Устюгов Дмитрий",
+    "properties": {
+      "mixed": false,
+      "full": true,
+      "double": false
+    },
+    "size": "small",
+    "vertices": 8,
+    "edges": 56
+  },
+  "graph_88": {
+    "author": "Устюгов Дмитрий",
+    "properties": {
+      "mixed": false,
+      "full": false,
+      "double": true
+    },
+    "size": "small",
+    "vertices": 9,
+    "edges": 8
+  },
+  "graph_89": {
+    "author": "Устюгов Дмитрий",
+    "properties": {
+      "mixed": false,
+      "full": false,
+      "double": true
+    },
+    "size": "small",
+    "vertices": 10,
+    "edges": 5
+  },
+  "graph_90": {
+    "author": "Фофанов Артем",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "medium",
+    "vertices": 40,
+    "edges": 1227
+  },
+  "graph_91": {
+    "author": "Устюгов Дмитрий",
+    "properties": {
+      "mixed": false,
+      "full": false,
+      "double": true
+    },
+    "size": "small",
+    "vertices": 4,
+    "edges": 2
+  },
+  "graph_92": {
+    "author": "Устюгов Дмитрий",
+    "properties": {
+      "mixed": false,
+      "full": true,
+      "double": false
+    },
+    "size": "medium",
+    "vertices": 11,
+    "edges": 110
+  },
+  "graph_93": {
+    "author": "Устюгов Дмитрий",
+    "properties": {
+      "mixed": false,
+      "full": false,
+      "double": true
+    },
+    "size": "small",
+    "vertices": 5,
+    "edges": 5
+  },
+  "graph_94": {
+    "author": "Устюгов Дмитрий",
+    "properties": {
+      "mixed": false,
+      "full": false,
+      "double": true
+    },
+    "size": "medium",
+    "vertices": 22,
+    "edges": 15
+  },
+  "graph_95": {
+    "author": "Устюгов Дмитрий",
+    "properties": {
+      "mixed": false,
+      "full": true,
+      "double": false
+    },
+    "size": "small",
+    "vertices": 4,
+    "edges": 12
+  },
+  "graph_96": {
+    "author": "Устюгов Дмитрий",
+    "properties": {
+      "mixed": false,
+      "full": true,
+      "double": false
+    },
+    "size": "large",
+    "vertices": 19,
+    "edges": 342
+  },
+  "graph_97": {
+    "author": "Устюгов Дмитрий",
+    "properties": {
+      "mixed": false,
+      "full": false,
+      "double": true
+    },
+    "size": "large",
+    "vertices": 32,
+    "edges": 23
+  },
+  "graph_98": {
+    "author": "Устюгов Дмитрий",
+    "properties": {
+      "mixed": false,
+      "full": true,
+      "double": false
+    },
+    "size": "large",
+    "vertices": 17,
+    "edges": 272
+  },
+  "graph_99": {
+    "author": "Устюгов Дмитрий",
+    "properties": {
+      "mixed": false,
+      "full": true,
+      "double": false
+    },
+    "size": "large",
+    "vertices": 17,
+    "edges": 272
+  },
+  "graph_100": {
+    "author": "Устюгов Дмитрий",
+    "properties": {
+      "mixed": true,
+      "full": false,
+      "double": false
+    },
+    "size": "medium",
+    "vertices": 28,
+    "edges": 82
+  },
+  "graph_101": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "medium",
+    "vertices": 28,
+    "edges": 123
+  },
+  "graph_102": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "large",
+    "vertices": 88,
+    "edges": 370
+  },
+  "graph_103": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "large",
+    "vertices": 51,
+    "edges": 625
+  },
+  "graph_104": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "huge",
+    "vertices": 105,
+    "edges": 248
+  },
+  "graph_105": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "medium",
+    "vertices": 30,
+    "edges": 46
+  },
+  "graph_106": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "medium",
+    "vertices": 22,
+    "edges": 55
+  },
+  "graph_107": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "large",
+    "vertices": 86,
+    "edges": 892
+  },
+  "graph_108": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "large",
+    "vertices": 58,
+    "edges": 314
+  },
+  "graph_109": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "large",
+    "vertices": 90,
+    "edges": 193
+  },
+  "graph_110": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "large",
+    "vertices": 84,
+    "edges": 395
+  },
+  "graph_111": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "large",
+    "vertices": 77,
+    "edges": 390
+  },
+  "graph_112": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "large",
+    "vertices": 97,
+    "edges": 257
+  },
+  "graph_113": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "huge",
+    "vertices": 115,
+    "edges": 495
+  },
+  "graph_114": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "huge",
+    "vertices": 145,
+    "edges": 395
+  },
+  "graph_115": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "large",
+    "vertices": 74,
+    "edges": 325
+  },
+  "graph_116": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "medium",
+    "vertices": 22,
+    "edges": 34
+  },
+  "graph_117": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "large",
+    "vertices": 54,
+    "edges": 276
+  },
+  "graph_118": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "huge",
+    "vertices": 153,
+    "edges": 682
+  },
+  "graph_119": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "medium",
+    "vertices": 24,
+    "edges": 62
+  },
+  "graph_120": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "huge",
+    "vertices": 169,
+    "edges": 3765
+  },
+  "graph_121": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "large",
+    "vertices": 96,
+    "edges": 222
+  },
+  "graph_122": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "huge",
+    "vertices": 104,
+    "edges": 260
+  },
+  "graph_123": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "huge",
+    "vertices": 166,
+    "edges": 244
+  },
+  "graph_124": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "huge",
+    "vertices": 197,
+    "edges": 742
+  },
+  "graph_125": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "medium",
+    "vertices": 17,
+    "edges": 54
+  },
+  "graph_126": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "huge",
+    "vertices": 193,
+    "edges": 745
+  },
+  "graph_127": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "huge",
+    "vertices": 135,
+    "edges": 428
+  },
+  "graph_128": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "huge",
+    "vertices": 196,
+    "edges": 546
+  },
+  "graph_129": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "huge",
+    "vertices": 108,
+    "edges": 361
+  },
+  "graph_130": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "huge",
+    "vertices": 156,
+    "edges": 2395
+  },
+  "graph_131": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "large",
+    "vertices": 60,
+    "edges": 182
+  },
+  "graph_132": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "medium",
+    "vertices": 41,
+    "edges": 68
+  },
+  "graph_133": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "medium",
+    "vertices": 15,
+    "edges": 51
+  },
+  "graph_134": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "huge",
+    "vertices": 174,
+    "edges": 759
+  },
+  "graph_135": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "huge",
+    "vertices": 147,
+    "edges": 404
+  },
+  "graph_136": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "medium",
+    "vertices": 40,
+    "edges": 18
+  },
+  "graph_137": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "medium",
+    "vertices": 42,
+    "edges": 105
+  },
+  "graph_138": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "small",
+    "vertices": 6,
+    "edges": 9
+  },
+  "graph_139": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "huge",
+    "vertices": 135,
+    "edges": 271
+  },
+  "graph_140": {
+    "author": "Белозёров Роман",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "medium",
+    "vertices": 20,
+    "edges": 20
+  },
+  "graph_141": {
+    "author": "Кормаченко Илья",
+    "properties": {
+      "simple": true,
+      "mixed": false,
+      "empty": false
+    },
+    "size": "small",
+    "vertices": 2,
+    "edges": 1
+  },
+  "graph_142": {
+    "author": "Кормаченко Илья",
+    "properties": {
+      "simple": true,
+      "mixed": false,
+      "empty": false
+    },
+    "size": "huge",
+    "vertices": 104,
+    "edges": 843
+  },
+  "graph_143": {
+    "author": "Кормаченко Илья",
+    "properties": {
+      "simple": false,
+      "mixed": true,
+      "empty": false
+    },
+    "size": "small",
+    "vertices": 2,
+    "edges": 4
+  },
+  "graph_144": {
+    "author": "Кормаченко Илья",
+    "properties": {
+      "simple": false,
+      "mixed": true,
+      "empty": false
+    },
+    "size": "small",
+    "vertices": 2,
+    "edges": 3
+  },
+  "graph_145": {
+    "author": "Кормаченко Илья",
+    "properties": {
+      "simple": false,
+      "mixed": true,
+      "empty": false
+    },
+    "size": "small",
+    "vertices": 5,
+    "edges": 14
+  },
+  "graph_146": {
+    "author": "Кормаченко Илья",
+    "properties": {
+      "simple": false,
+      "mixed": true,
+      "empty": false
+    },
+    "size": "medium",
+    "vertices": 46,
+    "edges": 116
+  },
+  "graph_147": {
+    "author": "Кормаченко Илья",
+    "properties": {
+      "simple": false,
+      "mixed": true,
+      "empty": false
+    },
+    "size": "medium",
+    "vertices": 38,
+    "edges": 72
+  },
+  "graph_148": {
+    "author": "Кормаченко Илья",
+    "properties": {
+      "simple": false,
+      "mixed": true,
+      "empty": false
+    },
+    "size": "medium",
+    "vertices": 46,
+    "edges": 116
+  },
+  "graph_149": {
+    "author": "Кормаченко Илья",
+    "properties": {
+      "simple": false,
+      "mixed": true,
+      "empty": false
+    },
+    "size": "large",
+    "vertices": 88,
+    "edges": 107
+  },
+  "graph_150": {
+    "author": "Кормаченко Илья",
+    "properties": {
+      "simple": false,
+      "mixed": true,
+      "empty": false
+    },
+    "size": "large",
+    "vertices": 82,
+    "edges": 132
+  },
+  "graph_151": {
+    "author": "Кормаченко Илья",
+    "properties": {
+      "simple": false,
+      "mixed": true,
+      "empty": false
+    },
+    "size": "huge",
+    "vertices": 153,
+    "edges": 374
+  },
+  "graph_152": {
+    "author": "Кормаченко Илья",
+    "properties": {
+      "simple": true,
+      "mixed": false,
+      "empty": false
+    },
+    "size": "small",
+    "vertices": 8,
+    "edges": 27
+  },
+  "graph_153": {
+    "author": "Кормаченко Илья",
+    "properties": {
+      "simple": false,
+      "mixed": true,
+      "empty": false
+    },
+    "size": "huge",
+    "vertices": 183,
+    "edges": 454
+  },
+  "graph_154": {
+    "author": "Кормаченко Илья",
+    "properties": {
+      "simple": false,
+      "mixed": false,
+      "empty": true
+    },
+    "size": "small",
+    "vertices": 3,
+    "edges": null
+  },
+  "graph_155": {
+    "author": "Кормаченко Илья",
+    "properties": {
+      "simple": false,
+      "mixed": false,
+      "empty": true
+    },
+    "size": "small",
+    "vertices": 10,
+    "edges": null
+  },
+  "graph_156": {
+    "author": "Кормаченко Илья",
+    "properties": {
+      "simple": false,
+      "mixed": false,
+      "empty": true
+    },
+    "size": "small",
+    "vertices": 2,
+    "edges": null
+  },
+  "graph_157": {
+    "author": "Кормаченко Илья",
+    "properties": {
+      "simple": false,
+      "mixed": false,
+      "empty": true
+    },
+    "size": "medium",
+    "vertices": 17,
+    "edges": null
+  },
+  "graph_158": {
+    "author": "Кормаченко Илья",
+    "properties": {
+      "simple": false,
+      "mixed": false,
+      "empty": true
+    },
+    "size": "medium",
+    "vertices": 41,
+    "edges": null
+  },
+  "graph_159": {
+    "author": "Кормаченко Илья",
+    "properties": {
+      "simple": false,
+      "mixed": false,
+      "empty": true
+    },
+    "size": "medium",
+    "vertices": 37,
+    "edges": null
+  },
+  "graph_160": {
+    "author": "Кормаченко Илья",
+    "properties": {
+      "simple": false,
+      "mixed": false,
+      "empty": true
+    },
+    "size": "large",
+    "vertices": 71,
+    "edges": null
+  },
+  "graph_161": {
+    "author": "Кормаченко Илья",
+    "properties": {
+      "simple": false,
+      "mixed": false,
+      "empty": true
+    },
+    "size": "large",
+    "vertices": 90,
+    "edges": null
+  },
+  "graph_162": {
+    "author": "Кормаченко Илья",
+    "properties": {
+      "simple": false,
+      "mixed": false,
+      "empty": true
+    },
+    "size": "huge",
+    "vertices": 199,
+    "edges": null
+  },
+  "graph_163": {
+    "author": "Кормаченко Илья",
+    "properties": {
+      "simple": true,
+      "mixed": false,
+      "empty": false
+    },
+    "size": "small",
+    "vertices": 1,
+    "edges": null
+  },
+  "graph_164": {
+    "author": "Кормаченко Илья",
+    "properties": {
+      "simple": false,
+      "mixed": false,
+      "empty": true
+    },
+    "size": "huge",
+    "vertices": 157,
+    "edges": null
+  },
+  "graph_165": {
+    "author": "Кормаченко Илья",
+    "properties": {
+      "simple": true,
+      "mixed": false,
+      "empty": false
+    },
+    "size": "medium",
+    "vertices": 20,
+    "edges": 2
+  },
+  "graph_166": {
+    "author": "Кормаченко Илья",
+    "properties": {
+      "simple": true,
+      "mixed": false,
+      "empty": false
+    },
+    "size": "medium",
+    "vertices": 39,
+    "edges": 365
+  },
+  "graph_167": {
+    "author": "Кормаченко Илья",
+    "properties": {
+      "simple": true,
+      "mixed": false,
+      "empty": false
+    },
+    "size": "medium",
+    "vertices": 48,
+    "edges": 516
+  },
+  "graph_168": {
+    "author": "Кормаченко Илья",
+    "properties": {
+      "simple": true,
+      "mixed": false,
+      "empty": false
+    },
+    "size": "large",
+    "vertices": 69,
+    "edges": 1788
+  },
+  "graph_169": {
+    "author": "Кормаченко Илья",
+    "properties": {
+      "simple": true,
+      "mixed": false,
+      "empty": false
+    },
+    "size": "large",
+    "vertices": 65,
+    "edges": 915
+  },
+  "graph_170": {
+    "author": "Кормаченко Илья",
+    "properties": {
+      "simple": true,
+      "mixed": false,
+      "empty": false
+    },
+    "size": "huge",
+    "vertices": 143,
+    "edges": 2789
+  },
+  "graph_171": {
+    "author": "Шитов Михаил",
+    "properties": {
+      "weighted": false,
+      "simple": false,
+      "planar": true
+    },
+    "size": "small",
+    "vertices": 10,
+    "edges": 9
+  },
+  "graph_172": {
+    "author": "Шитов Михаил",
+    "properties": {
+      "weighted": false,
+      "simple": false,
+      "planar": false
+    },
+    "size": "small",
+    "vertices": 7,
+    "edges": 15
+  },
+  "graph_173": {
+    "author": "Шитов Михаил",
+    "properties": {
+      "weighted": true,
+      "simple": true,
+      "planar": true
+    },
+    "size": "medium",
+    "vertices": 17,
+    "edges": 17
+  },
+  "graph_174": {
+    "author": "Шитов Михаил",
+    "properties": {
+      "weighted": false,
+      "simple": true,
+      "planar": true
+    },
+    "size": "medium",
+    "vertices": 46,
+    "edges": 129
+  },
+  "graph_175": {
+    "author": "Шитов Михаил",
+    "properties": {
+      "weighted": true,
+      "simple": true,
+      "planar": false
+    },
+    "size": "medium",
+    "vertices": 29,
+    "edges": 227
+  },
+  "graph_176": {
+    "author": "Шитов Михаил",
+    "properties": {
+      "weighted": false,
+      "simple": true,
+      "planar": true
+    },
+    "size": "medium",
+    "vertices": 24,
+    "edges": 65
+  },
+  "graph_177": {
+    "author": "Шитов Михаил",
+    "properties": {
+      "weighted": true,
+      "simple": true,
+      "planar": false
+    },
+    "size": "medium",
+    "vertices": 38,
+    "edges": 140
+  },
+  "graph_178": {
+    "author": "Шитов Михаил",
+    "properties": {
+      "weighted": true,
+      "simple": true,
+      "planar": true
+    },
+    "size": "medium",
+    "vertices": 15,
+    "edges": 35
+  },
+  "graph_179": {
+    "author": "Шитов Михаил",
+    "properties": {
+      "weighted": true,
+      "simple": true,
+      "planar": false
+    },
+    "size": "medium",
+    "vertices": 37,
+    "edges": 263
+  },
+  "graph_180": {
+    "author": "Шитов Михаил",
+    "properties": {
+      "weighted": true,
+      "simple": false,
+      "planar": true
+    },
+    "size": "medium",
+    "vertices": 33,
+    "edges": 70
+  },
+  "graph_181": {
+    "author": "Шитов Михаил",
+    "properties": {
+      "weighted": true,
+      "simple": false,
+      "planar": true
+    },
+    "size": "medium",
+    "vertices": 35,
+    "edges": 39
+  },
+  "graph_182": {
+    "author": "Шитов Михаил",
+    "properties": {
+      "weighted": true,
+      "simple": true,
+      "planar": true
+    },
+    "size": "small",
+    "vertices": 6,
+    "edges": 5
+  },
+  "graph_183": {
+    "author": "Шитов Михаил",
+    "properties": {
+      "weighted": false,
+      "simple": true,
+      "planar": false
+    },
+    "size": "medium",
+    "vertices": 47,
+    "edges": 257
+  },
+  "graph_184": {
+    "author": "Шитов Михаил",
+    "properties": {
+      "weighted": false,
+      "simple": false,
+      "planar": true
+    },
+    "size": "large",
+    "vertices": 79,
+    "edges": 178
+  },
+  "graph_185": {
+    "author": "Шитов Михаил",
+    "properties": {
+      "weighted": true,
+      "simple": false,
+      "planar": true
+    },
+    "size": "large",
+    "vertices": 85,
+    "edges": 137
+  },
+  "graph_186": {
+    "author": "Шитов Михаил",
+    "properties": {
+      "weighted": false,
+      "simple": true,
+      "planar": false
+    },
+    "size": "large",
+    "vertices": 75,
+    "edges": 1977
+  },
+  "graph_187": {
+    "author": "Шитов Михаил",
+    "properties": {
+      "weighted": false,
+      "simple": true,
+      "planar": true
+    },
+    "size": "large",
+    "vertices": 76,
+    "edges": 214
+  },
+  "graph_188": {
+    "author": "Шитов Михаил",
+    "properties": {
+      "weighted": false,
+      "simple": true,
+      "planar": false
+    },
+    "size": "large",
+    "vertices": 55,
+    "edges": 752
+  },
+  "graph_189": {
+    "author": "Шитов Михаил",
+    "properties": {
+      "weighted": true,
+      "simple": true,
+      "planar": false
+    },
+    "size": "large",
+    "vertices": 85,
+    "edges": 133
+  },
+  "graph_190": {
+    "author": "Шитов Михаил",
+    "properties": {
+      "weighted": true,
+      "simple": true,
+      "planar": false
+    },
+    "size": "large",
+    "vertices": 77,
+    "edges": 140
+  },
+  "graph_191": {
+    "author": "Шитов Михаил",
+    "properties": {
+      "weighted": false,
+      "simple": false,
+      "planar": false
+    },
+    "size": "large",
+    "vertices": 68,
+    "edges": 2010
+  },
+  "graph_192": {
+    "author": "Шитов Михаил",
+    "properties": {
+      "weighted": true,
+      "simple": false,
+      "planar": false
+    },
+    "size": "large",
+    "vertices": 78,
+    "edges": 2816
+  },
+  "graph_193": {
+    "author": "Шитов Михаил",
+    "properties": {
+      "weighted": false,
+      "simple": true,
+      "planar": false
+    },
+    "size": "small",
+    "vertices": 6,
+    "edges": 10
+  },
+  "graph_194": {
+    "author": "Шитов Михаил",
+    "properties": {
+      "weighted": false,
+      "simple": false,
+      "planar": false
+    },
+    "size": "large",
+    "vertices": 58,
+    "edges": 756
+  },
+  "graph_195": {
+    "author": "Шитов Михаил",
+    "properties": {
+      "weighted": false,
+      "simple": true,
+      "planar": true
+    },
+    "size": "small",
+    "vertices": 6,
+    "edges": 8
+  },
+  "graph_196": {
+    "author": "Шитов Михаил",
+    "properties": {
+      "weighted": false,
+      "simple": true,
+      "planar": false
+    },
+    "size": "small",
+    "vertices": 8,
+    "edges": 25
+  },
+  "graph_197": {
+    "author": "Шитов Михаил",
+    "properties": {
+      "weighted": true,
+      "simple": true,
+      "planar": false
+    },
+    "size": "small",
+    "vertices": 7,
+    "edges": 14
+  },
+  "graph_198": {
+    "author": "Шитов Михаил",
+    "properties": {
+      "weighted": true,
+      "simple": false,
+      "planar": false
+    },
+    "size": "small",
+    "vertices": 9,
+    "edges": 8
+  },
+  "graph_199": {
+    "author": "Шитов Михаил",
+    "properties": {
+      "weighted": true,
+      "simple": false,
+      "planar": true
+    },
+    "size": "small",
+    "vertices": 10,
+    "edges": 9
+  },
+  "graph_200": {
+    "author": "Шитов Михаил",
+    "properties": {
+      "weighted": true,
+      "simple": true,
+      "planar": true
+    },
+    "size": "small",
+    "vertices": 10,
+    "edges": 22
+  }
+}
