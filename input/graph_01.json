@@ -1,0 +1,12 @@
+{
+  "author": "Романов Григорий",
+  "properties": {
+    "double": true,
+    "tree": true,
+    "planar": true
+  },
+  "size": "small",
+  "vertices": 1,
+  "edges": 0,
+  "edges_list": []
+}
