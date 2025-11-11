@@ -1,0 +1,19 @@
+{
+  "author": "Коростелёв Максим",
+  "properties": {
+    "directed": false,
+    "weighted": true,
+    "pseudo": true
+  },
+  "size": "small",
+  "vertices": 4,
+  "edges": 6,
+  "edges_list": [
+    {"source": 3, "target": 1, "weight": 2},
+    {"source": 1, "target": 4, "weight": 3},
+    {"source": 4, "target": 2, "weight": 10},
+    {"source": 1, "target": 1, "weight": 9},
+    {"source": 4, "target": 4, "weight": 14},
+    {"source": 3, "target": 4, "weight": 12}
+  ]
+}
