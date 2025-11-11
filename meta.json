@@ -2198,5 +2198,335 @@
     "size": "small",
     "vertices": 10,
     "edges": 22
+  },
+  "graph_201": {
+    "author": "Романов Григорий",
+    "properties": {
+      "double": true,
+      "tree": true,
+      "planar": true
+    },
+    "size": "small",
+    "vertices": 1,
+    "edges": null
+  },
+  "graph_202": {
+    "author": "Романов Григорий",
+    "properties": {
+      "double": true,
+      "tree": true,
+      "planar": true
+    },
+    "size": "small",
+    "vertices": 2,
+    "edges": 1
+  },
+  "graph_203": {
+    "author": "Романов Григорий",
+    "properties": {
+      "double": true,
+      "tree": true,
+      "planar": true
+    },
+    "size": "small",
+    "vertices": 3,
+    "edges": 2
+  },
+  "graph_204": {
+    "author": "Романов Григорий",
+    "properties": {
+      "double": true,
+      "tree": true,
+      "planar": true
+    },
+    "size": "small",
+    "vertices": 4,
+    "edges": 3
+  },
+  "graph_205": {
+    "author": "Романов Григорий",
+    "properties": {
+      "double": true,
+      "tree": true,
+      "planar": true
+    },
+    "size": "small",
+    "vertices": 5,
+    "edges": 4
+  },
+  "graph_206": {
+    "author": "Романов Григорий",
+    "properties": {
+      "double": true,
+      "tree": true,
+      "planar": true
+    },
+    "size": "small",
+    "vertices": 6,
+    "edges": 5
+  },
+  "graph_207": {
+    "author": "Романов Григорий",
+    "properties": {
+      "double": true,
+      "tree": true,
+      "planar": true
+    },
+    "size": "small",
+    "vertices": 7,
+    "edges": 6
+  },
+  "graph_208": {
+    "author": "Романов Григорий",
+    "properties": {
+      "double": true,
+      "tree": true,
+      "planar": true
+    },
+    "size": "small",
+    "vertices": 8,
+    "edges": 7
+  },
+  "graph_209": {
+    "author": "Романов Григорий",
+    "properties": {
+      "double": true,
+      "tree": true,
+      "planar": true
+    },
+    "size": "small",
+    "vertices": 9,
+    "edges": 8
+  },
+  "graph_210": {
+    "author": "Романов Григорий",
+    "properties": {
+      "double": true,
+      "tree": true,
+      "planar": true
+    },
+    "size": "small",
+    "vertices": 10,
+    "edges": 9
+  },
+  "graph_211": {
+    "author": "Романов Григорий",
+    "properties": {
+      "double": true,
+      "tree": true,
+      "planar": true
+    },
+    "size": "medium",
+    "vertices": 11,
+    "edges": 10
+  },
+  "graph_212": {
+    "author": "Романов Григорий",
+    "properties": {
+      "double": true,
+      "tree": true,
+      "planar": true
+    },
+    "size": "medium",
+    "vertices": 15,
+    "edges": 14
+  },
+  "graph_213": {
+    "author": "Романов Григорий",
+    "properties": {
+      "double": true,
+      "tree": true,
+      "planar": true
+    },
+    "size": "medium",
+    "vertices": 19,
+    "edges": 18
+  },
+  "graph_214": {
+    "author": "Романов Григорий",
+    "properties": {
+      "double": true,
+      "tree": true,
+      "planar": true
+    },
+    "size": "medium",
+    "vertices": 23,
+    "edges": 22
+  },
+  "graph_215": {
+    "author": "Романов Григорий",
+    "properties": {
+      "double": true,
+      "tree": true,
+      "planar": true
+    },
+    "size": "medium",
+    "vertices": 27,
+    "edges": 26
+  },
+  "graph_216": {
+    "author": "Романов Григорий",
+    "properties": {
+      "double": true,
+      "tree": true,
+      "planar": true
+    },
+    "size": "medium",
+    "vertices": 31,
+    "edges": 30
+  },
+  "graph_217": {
+    "author": "Романов Григорий",
+    "properties": {
+      "double": true,
+      "tree": true,
+      "planar": true
+    },
+    "size": "medium",
+    "vertices": 35,
+    "edges": 34
+  },
+  "graph_218": {
+    "author": "Романов Григорий",
+    "properties": {
+      "double": true,
+      "tree": true,
+      "planar": true
+    },
+    "size": "medium",
+    "vertices": 39,
+    "edges": 38
+  },
+  "graph_219": {
+    "author": "Романов Григорий",
+    "properties": {
+      "double": true,
+      "tree": true,
+      "planar": true
+    },
+    "size": "medium",
+    "vertices": 43,
+    "edges": 42
+  },
+  "graph_220": {
+    "author": "Романов Григорий",
+    "properties": {
+      "double": true,
+      "tree": true,
+      "planar": true
+    },
+    "size": "medium",
+    "vertices": 47,
+    "edges": 46
+  },
+  "graph_221": {
+    "author": "Романов Григорий",
+    "properties": {
+      "double": true,
+      "tree": true,
+      "planar": true
+    },
+    "size": "large",
+    "vertices": 51,
+    "edges": 50
+  },
+  "graph_222": {
+    "author": "Романов Григорий",
+    "properties": {
+      "double": true,
+      "tree": true,
+      "planar": true
+    },
+    "size": "large",
+    "vertices": 56,
+    "edges": 55
+  },
+  "graph_223": {
+    "author": "Романов Григорий",
+    "properties": {
+      "double": true,
+      "tree": true,
+      "planar": true
+    },
+    "size": "large",
+    "vertices": 61,
+    "edges": 60
+  },
+  "graph_224": {
+    "author": "Романов Григорий",
+    "properties": {
+      "double": true,
+      "tree": true,
+      "planar": true
+    },
+    "size": "large",
+    "vertices": 66,
+    "edges": 65
+  },
+  "graph_225": {
+    "author": "Романов Григорий",
+    "properties": {
+      "double": true,
+      "tree": true,
+      "planar": true
+    },
+    "size": "large",
+    "vertices": 71,
+    "edges": 70
+  },
+  "graph_226": {
+    "author": "Романов Григорий",
+    "properties": {
+      "double": true,
+      "tree": true,
+      "planar": true
+    },
+    "size": "large",
+    "vertices": 76,
+    "edges": 75
+  },
+  "graph_227": {
+    "author": "Романов Григорий",
+    "properties": {
+      "double": true,
+      "tree": true,
+      "planar": true
+    },
+    "size": "large",
+    "vertices": 81,
+    "edges": 80
+  },
+  "graph_228": {
+    "author": "Романов Григорий",
+    "properties": {
+      "double": true,
+      "tree": true,
+      "planar": true
+    },
+    "size": "large",
+    "vertices": 86,
+    "edges": 85
+  },
+  "graph_229": {
+    "author": "Романов Григорий",
+    "properties": {
+      "double": true,
+      "tree": true,
+      "planar": true
+    },
+    "size": "large",
+    "vertices": 91,
+    "edges": 90
+  },
+  "graph_230": {
+    "author": "Романов Григорий",
+    "properties": {
+      "double": true,
+      "tree": true,
+      "planar": true
+    },
+    "size": "large",
+    "vertices": 96,
+    "edges": 95
   }
 }
