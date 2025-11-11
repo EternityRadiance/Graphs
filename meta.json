@@ -2528,5 +2528,467 @@
     "size": "large",
     "vertices": 96,
     "edges": 95
+  },
+  "graph_231": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "large",
+    "vertices": 54,
+    "edges": 301
+  },
+  "graph_232": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "huge",
+    "vertices": 185,
+    "edges": 338
+  },
+  "graph_233": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": false
+    },
+    "size": "huge",
+    "vertices": 132,
+    "edges": 154
+  },
+  "graph_234": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": false,
+      "weighted": false,
+      "connected": false
+    },
+    "size": "small",
+    "vertices": 6,
+    "edges": 8
+  },
+  "graph_235": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "huge",
+    "vertices": 199,
+    "edges": 378
+  },
+  "graph_236": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "huge",
+    "vertices": 153,
+    "edges": 250
+  },
+  "graph_237": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": false
+    },
+    "size": "large",
+    "vertices": 80,
+    "edges": 205
+  },
+  "graph_238": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": false,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "small",
+    "vertices": 4,
+    "edges": 6
+  },
+  "graph_239": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "small",
+    "vertices": 10,
+    "edges": 46
+  },
+  "graph_240": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "huge",
+    "vertices": 149,
+    "edges": 378
+  },
+  "graph_241": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": false,
+      "weighted": false,
+      "connected": false
+    },
+    "size": "small",
+    "vertices": 9,
+    "edges": 24
+  },
+  "graph_242": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "medium",
+    "vertices": 35,
+    "edges": 307
+  },
+  "graph_243": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "huge",
+    "vertices": 177,
+    "edges": 382
+  },
+  "graph_244": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "large",
+    "vertices": 84,
+    "edges": 140
+  },
+  "graph_245": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "large",
+    "vertices": 59,
+    "edges": 180
+  },
+  "graph_246": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "large",
+    "vertices": 79,
+    "edges": 139
+  },
+  "graph_247": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "large",
+    "vertices": 81,
+    "edges": 208
+  },
+  "graph_248": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": false,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "medium",
+    "vertices": 17,
+    "edges": 121
+  },
+  "graph_249": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "medium",
+    "vertices": 48,
+    "edges": 323
+  },
+  "graph_250": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "large",
+    "vertices": 51,
+    "edges": 227
+  },
+  "graph_251": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": false,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "large",
+    "vertices": 73,
+    "edges": 125
+  },
+  "graph_252": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "small",
+    "vertices": 9,
+    "edges": 40
+  },
+  "graph_253": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": false,
+      "weighted": false,
+      "connected": false
+    },
+    "size": "large",
+    "vertices": 76,
+    "edges": 174
+  },
+  "graph_254": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "medium",
+    "vertices": 46,
+    "edges": 257
+  },
+  "graph_255": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": false,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "medium",
+    "vertices": 27,
+    "edges": 299
+  },
+  "graph_256": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "small",
+    "vertices": 3,
+    "edges": 3
+  },
+  "graph_257": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "small",
+    "vertices": 8,
+    "edges": 50
+  },
+  "graph_258": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "medium",
+    "vertices": 38,
+    "edges": 239
+  },
+  "graph_259": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "huge",
+    "vertices": 123,
+    "edges": 129
+  },
+  "graph_260": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "small",
+    "vertices": 2,
+    "edges": 2
+  },
+  "graph_261": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": false
+    },
+    "size": "large",
+    "vertices": 70,
+    "edges": 258
+  },
+  "graph_262": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": false
+    },
+    "size": "medium",
+    "vertices": 46,
+    "edges": 210
+  },
+  "graph_263": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": false
+    },
+    "size": "large",
+    "vertices": 97,
+    "edges": 209
+  },
+  "graph_264": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": true,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "medium",
+    "vertices": 31,
+    "edges": 39
+  },
+  "graph_265": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "huge",
+    "vertices": 194,
+    "edges": 357
+  },
+  "graph_266": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": false,
+      "weighted": false,
+      "connected": false
+    },
+    "size": "medium",
+    "vertices": 20,
+    "edges": 58
+  },
+  "graph_267": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "large",
+    "vertices": 93,
+    "edges": 137
+  },
+  "graph_268": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "large",
+    "vertices": 84,
+    "edges": 226
+  },
+  "graph_269": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "huge",
+    "vertices": 103,
+    "edges": 123
+  },
+  "graph_270": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "small",
+    "vertices": 2,
+    "edges": 2
+  },
+  "graph_271": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": true,
+      "weighted": true,
+      "connected": false
+    },
+    "size": "large",
+    "vertices": 88,
+    "edges": 331
+  },
+  "graph_272": {
+    "author": "Орлов Дмитрий",
+    "properties": {
+      "directed": false,
+      "weighted": false,
+      "connected": true
+    },
+    "size": "huge",
+    "vertices": 131,
+    "edges": 327
   }
 }
