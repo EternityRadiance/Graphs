@@ -1,0 +1,21 @@
+{
+ "author": "Орлов Дмитрий",
+ "properties": {
+  "directed": false,
+  "weighted": false,
+  "connected": false
+ },
+ "size": "small",
+ "vertices": 6,
+ "edges": 8,
+ "edges_list": [
+  {"source": 6, "target": 4, "weight": 1},
+  {"source": 3, "target": 1, "weight": 1},
+  {"source": 6, "target": 3, "weight": 1},
+  {"source": 4, "target": 1, "weight": 1},
+  {"source": 5, "target": 6, "weight": 1},
+  {"source": 3, "target": 4, "weight": 1},
+  {"source": 5, "target": 4, "weight": 1},
+  {"source": 2, "target": 6, "weight": 1}
+ ]
+}
