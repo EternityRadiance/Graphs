@@ -1,0 +1,41 @@
+﻿{
+ "author": "Клековкин Максим",
+ "properties": {
+  "pseudo": true,
+  "mixed": false,
+  "planar": false
+ },
+ "size": "medium",
+ "vertices": 38,
+ "edges": 28,
+ "edges_list": [
+  {"source": 10, "target": 27},
+  {"source": 2, "target": 25},
+  {"source": 8, "target": 21},
+  {"source": 19, "target": 31},
+  {"source": 10, "target": 12},
+  {"source": 22, "target": 30},
+  {"source": 5, "target": 8},
+  {"source": 31, "target": 4},
+  {"source": 21, "target": 24},
+  {"source": 30, "target": 7},
+  {"source": 11, "target": 27},
+  {"source": 33, "target": 14},
+  {"source": 32, "target": 23},
+  {"source": 3, "target": 10},
+  {"source": 8, "target": 4},
+  {"source": 6, "target": 30},
+  {"source": 3, "target": 26},
+  {"source": 18, "target": 19},
+  {"source": 16, "target": 5},
+  {"source": 27, "target": 38},
+  {"source": 17, "target": 19},
+  {"source": 13, "target": 14},
+  {"source": 8, "target": 18},
+  {"source": 22, "target": 20},
+  {"source": 29, "target": 2},
+  {"source": 29, "target": 7},
+  {"source": 11, "target": 9},
+  {"source": 36, "target": 21}
+ ]
+}
