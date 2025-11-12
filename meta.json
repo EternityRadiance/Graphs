@@ -3650,5 +3650,335 @@
     "size": "large",
     "vertices": 43,
     "edges": 104
+  },
+  "graph_333": {
+    "author": "Субботина Алиса",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "small",
+    "vertices": 3,
+    "edges": 2
+  },
+  "graph_334": {
+    "author": "Субботина Алиса",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "small",
+    "vertices": 2,
+    "edges": 1
+  },
+  "graph_335": {
+    "author": "Субботина Алиса",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "medium",
+    "vertices": 17,
+    "edges": 38
+  },
+  "graph_336": {
+    "author": "Субботина Алиса",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "medium",
+    "vertices": 22,
+    "edges": 55
+  },
+  "graph_337": {
+    "author": "Субботина Алиса",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "medium",
+    "vertices": 15,
+    "edges": 36
+  },
+  "graph_338": {
+    "author": "Субботина Алиса",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "medium",
+    "vertices": 46,
+    "edges": 312
+  },
+  "graph_339": {
+    "author": "Субботина Алиса",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "medium",
+    "vertices": 11,
+    "edges": 17
+  },
+  "graph_340": {
+    "author": "Субботина Алиса",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "medium",
+    "vertices": 11,
+    "edges": 22
+  },
+  "graph_341": {
+    "author": "Субботина Алиса",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "medium",
+    "vertices": 31,
+    "edges": 141
+  },
+  "graph_342": {
+    "author": "Субботина Алиса",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "medium",
+    "vertices": 50,
+    "edges": 351
+  },
+  "graph_343": {
+    "author": "Субботина Алиса",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "medium",
+    "vertices": 45,
+    "edges": 289
+  },
+  "graph_344": {
+    "author": "Субботина Алиса",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "small",
+    "vertices": 10,
+    "edges": 24
+  },
+  "graph_345": {
+    "author": "Субботина Алиса",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "medium",
+    "vertices": 17,
+    "edges": 33
+  },
+  "graph_346": {
+    "author": "Субботина Алиса",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "large",
+    "vertices": 100,
+    "edges": 472
+  },
+  "graph_347": {
+    "author": "Субботина Алиса",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "large",
+    "vertices": 72,
+    "edges": 276
+  },
+  "graph_348": {
+    "author": "Субботина Алиса",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "large",
+    "vertices": 69,
+    "edges": 262
+  },
+  "graph_349": {
+    "author": "Субботина Алиса",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "large",
+    "vertices": 79,
+    "edges": 303
+  },
+  "graph_350": {
+    "author": "Субботина Алиса",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "large",
+    "vertices": 59,
+    "edges": 182
+  },
+  "graph_351": {
+    "author": "Субботина Алиса",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "large",
+    "vertices": 61,
+    "edges": 187
+  },
+  "graph_352": {
+    "author": "Субботина Алиса",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "large",
+    "vertices": 75,
+    "edges": 287
+  },
+  "graph_353": {
+    "author": "Субботина Алиса",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "large",
+    "vertices": 94,
+    "edges": 447
+  },
+  "graph_354": {
+    "author": "Субботина Алиса",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "large",
+    "vertices": 80,
+    "edges": 313
+  },
+  "graph_355": {
+    "author": "Субботина Алиса",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "small",
+    "vertices": 4,
+    "edges": 5
+  },
+  "graph_356": {
+    "author": "Субботина Алиса",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "large",
+    "vertices": 91,
+    "edges": 443
+  },
+  "graph_357": {
+    "author": "Субботина Алиса",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "small",
+    "vertices": 10,
+    "edges": 28
+  },
+  "graph_358": {
+    "author": "Субботина Алиса",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "small",
+    "vertices": 10,
+    "edges": 17
+  },
+  "graph_359": {
+    "author": "Субботина Алиса",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "small",
+    "vertices": 1,
+    "edges": null
+  },
+  "graph_360": {
+    "author": "Субботина Алиса",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "small",
+    "vertices": 6,
+    "edges": 7
+  },
+  "graph_361": {
+    "author": "Субботина Алиса",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "small",
+    "vertices": 7,
+    "edges": 9
+  },
+  "graph_362": {
+    "author": "Субботина Алиса",
+    "properties": {
+      "directed": false,
+      "weighted": true,
+      "connected": true
+    },
+    "size": "small",
+    "vertices": 9,
+    "edges": 16
   }
 }
