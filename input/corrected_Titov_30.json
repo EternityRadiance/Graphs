@@ -1,0 +1,17 @@
+{
+  "author": "Александр Титов",
+  "properties": {
+    "weighted": false,
+    "connected": false,
+    "planar": false
+  },
+  "size": "small",
+  "vertices": 6,
+  "edges": 4,
+  "edges_list": [
+    {"source": 6, "target": 3},
+    {"source": 5, "target": 3},
+    {"source": 1, "target": 4},
+    {"source": 1, "target": 5}
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "author": "Александр Титов",
+  "properties": {
+    "weighted": false,
+    "connected": false,
+    "planar": true
+  },
+  "size": "small",
+  "vertices": 10,
+  "edges": 28,
+  "edges_list": [
+    {"source": 7, "target": 10},
+    {"source": 7, "target": 6},
+    {"source": 10, "target": 1},
+    {"source": 3, "target": 1},
+    {"source": 4, "target": 1},
+    {"source": 3, "target": 6},
+    {"source": 4, "target": 6},
+    {"source": 8, "target": 3},
+    {"source": 1, "target": 5},
+    {"source": 10, "target": 6},
+    {"source": 4, "target": 10},
+    {"source": 6, "target": 7},
+    {"source": 2, "target": 3},
+    {"source": 9, "target": 7},
+    {"source": 8, "target": 10},
+    {"source": 9, "target": 7},
+    {"source": 8, "target": 4},
+    {"source": 4, "target": 7},
+    {"source": 2, "target": 5},
+    {"source": 2, "target": 8},
+    {"source": 1, "target": 5},
+    {"source": 4, "target": 6},
+    {"source": 3, "target": 2},
+    {"source": 5, "target": 1},
+    {"source": 9, "target": 4},
+    {"source": 6, "target": 5},
+    {"source": 1, "target": 7},
+    {"source": 7, "target": 1}
+  ]
+}

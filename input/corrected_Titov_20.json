@@ -1,0 +1,19 @@
+{
+  "author": "РђР»РµРєСЃР°РЅРґСЂ РўРёС‚РѕРІ",
+  "properties": {
+    "weighted": false,
+    "connected": false,
+    "planar": true
+  },
+  "size": "small",
+  "vertices": 6,
+  "edges": 6,
+  "edges_list": [
+    {"source": 2, "target": 1},
+    {"source": 5, "target": 6},
+    {"source": 5, "target": 4},
+    {"source": 3, "target": 2},
+    {"source": 4, "target": 1},
+    {"source": 4, "target": 2}
+  ]
+}
