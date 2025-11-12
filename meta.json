@@ -4310,5 +4310,335 @@
     "size": "large",
     "vertices": 65,
     "edges": 181
+  },
+  "graph_393": {
+    "author": "Демчук Михаил",
+    "properties": {
+      "tree": true,
+      "empty": false,
+      "double": true
+    },
+    "size": "small",
+    "vertices": 15,
+    "edges": 14
+  },
+  "graph_394": {
+    "author": "Демчук Михаил",
+    "properties": {
+      "tree": true,
+      "empty": false,
+      "double": true
+    },
+    "size": "small",
+    "vertices": 8,
+    "edges": 7
+  },
+  "graph_395": {
+    "author": "Демчук Михаил",
+    "properties": {
+      "tree": false,
+      "empty": true,
+      "double": true
+    },
+    "size": "medium",
+    "vertices": 40,
+    "edges": null
+  },
+  "graph_396": {
+    "author": "Демчук Михаил",
+    "properties": {
+      "tree": false,
+      "empty": false,
+      "double": true
+    },
+    "size": "medium",
+    "vertices": 38,
+    "edges": 20
+  },
+  "graph_397": {
+    "author": "Демчук Михаил",
+    "properties": {
+      "tree": false,
+      "empty": true,
+      "double": true
+    },
+    "size": "medium",
+    "vertices": 34,
+    "edges": null
+  },
+  "graph_398": {
+    "author": "Демчук Михаил",
+    "properties": {
+      "tree": false,
+      "empty": false,
+      "double": true
+    },
+    "size": "medium",
+    "vertices": 26,
+    "edges": 14
+  },
+  "graph_399": {
+    "author": "Демчук Михаил",
+    "properties": {
+      "tree": false,
+      "empty": false,
+      "double": true
+    },
+    "size": "medium",
+    "vertices": 19,
+    "edges": 23
+  },
+  "graph_400": {
+    "author": "Демчук Михаил",
+    "properties": {
+      "tree": true,
+      "empty": false,
+      "double": true
+    },
+    "size": "medium",
+    "vertices": 27,
+    "edges": 26
+  },
+  "graph_401": {
+    "author": "Демчук Михаил",
+    "properties": {
+      "tree": true,
+      "empty": false,
+      "double": true
+    },
+    "size": "medium",
+    "vertices": 40,
+    "edges": 39
+  },
+  "graph_402": {
+    "author": "Демчук Михаил",
+    "properties": {
+      "tree": false,
+      "empty": true,
+      "double": true
+    },
+    "size": "medium",
+    "vertices": 47,
+    "edges": null
+  },
+  "graph_403": {
+    "author": "Демчук Михаил",
+    "properties": {
+      "tree": true,
+      "empty": false,
+      "double": true
+    },
+    "size": "medium",
+    "vertices": 45,
+    "edges": 44
+  },
+  "graph_404": {
+    "author": "Демчук Михаил",
+    "properties": {
+      "tree": true,
+      "empty": false,
+      "double": true
+    },
+    "size": "small",
+    "vertices": 13,
+    "edges": 12
+  },
+  "graph_405": {
+    "author": "Демчук Михаил",
+    "properties": {
+      "tree": false,
+      "empty": false,
+      "double": true
+    },
+    "size": "medium",
+    "vertices": 49,
+    "edges": 71
+  },
+  "graph_406": {
+    "author": "Демчук Михаил",
+    "properties": {
+      "tree": false,
+      "empty": false,
+      "double": true
+    },
+    "size": "large",
+    "vertices": 84,
+    "edges": 56
+  },
+  "graph_407": {
+    "author": "Демчук Михаил",
+    "properties": {
+      "tree": false,
+      "empty": true,
+      "double": true
+    },
+    "size": "large",
+    "vertices": 92,
+    "edges": null
+  },
+  "graph_408": {
+    "author": "Демчук Михаил",
+    "properties": {
+      "tree": true,
+      "empty": false,
+      "double": true
+    },
+    "size": "large",
+    "vertices": 57,
+    "edges": 56
+  },
+  "graph_409": {
+    "author": "Демчук Михаил",
+    "properties": {
+      "tree": false,
+      "empty": false,
+      "double": true
+    },
+    "size": "large",
+    "vertices": 70,
+    "edges": 13
+  },
+  "graph_410": {
+    "author": "Демчук Михаил",
+    "properties": {
+      "tree": false,
+      "empty": false,
+      "double": true
+    },
+    "size": "large",
+    "vertices": 79,
+    "edges": 104
+  },
+  "graph_411": {
+    "author": "Демчук Михаил",
+    "properties": {
+      "tree": false,
+      "empty": false,
+      "double": true
+    },
+    "size": "large",
+    "vertices": 82,
+    "edges": 137
+  },
+  "graph_412": {
+    "author": "Демчук Михаил",
+    "properties": {
+      "tree": true,
+      "empty": false,
+      "double": true
+    },
+    "size": "large",
+    "vertices": 66,
+    "edges": 65
+  },
+  "graph_413": {
+    "author": "Демчук Михаил",
+    "properties": {
+      "tree": false,
+      "empty": false,
+      "double": true
+    },
+    "size": "large",
+    "vertices": 72,
+    "edges": 48
+  },
+  "graph_414": {
+    "author": "Демчук Михаил",
+    "properties": {
+      "tree": true,
+      "empty": false,
+      "double": true
+    },
+    "size": "large",
+    "vertices": 81,
+    "edges": 80
+  },
+  "graph_415": {
+    "author": "Демчук Михаил",
+    "properties": {
+      "tree": false,
+      "empty": true,
+      "double": true
+    },
+    "size": "small",
+    "vertices": 15,
+    "edges": null
+  },
+  "graph_416": {
+    "author": "Демчук Михаил",
+    "properties": {
+      "tree": true,
+      "empty": false,
+      "double": true
+    },
+    "size": "large",
+    "vertices": 62,
+    "edges": 61
+  },
+  "graph_417": {
+    "author": "Демчук Михаил",
+    "properties": {
+      "tree": true,
+      "empty": false,
+      "double": true
+    },
+    "size": "small",
+    "vertices": 7,
+    "edges": 6
+  },
+  "graph_418": {
+    "author": "Демчук Михаил",
+    "properties": {
+      "tree": false,
+      "empty": false,
+      "double": true
+    },
+    "size": "small",
+    "vertices": 8,
+    "edges": 5
+  },
+  "graph_419": {
+    "author": "Демчук Михаил",
+    "properties": {
+      "tree": false,
+      "empty": false,
+      "double": true
+    },
+    "size": "small",
+    "vertices": 14,
+    "edges": 12
+  },
+  "graph_420": {
+    "author": "Демчук Михаил",
+    "properties": {
+      "tree": false,
+      "empty": false,
+      "double": true
+    },
+    "size": "small",
+    "vertices": 15,
+    "edges": 5
+  },
+  "graph_421": {
+    "author": "Демчук Михаил",
+    "properties": {
+      "tree": false,
+      "empty": true,
+      "double": true
+    },
+    "size": "small",
+    "vertices": 6,
+    "edges": null
+  },
+  "graph_422": {
+    "author": "Демчук Михаил",
+    "properties": {
+      "tree": false,
+      "empty": false,
+      "double": true
+    },
+    "size": "small",
+    "vertices": 14,
+    "edges": 9
   }
 }
