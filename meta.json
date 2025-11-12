@@ -3320,5 +3320,335 @@
     "size": "small",
     "vertices": 9,
     "edges": 15
+  },
+  "graph_303": {
+    "author": "Александр Титов",
+    "properties": {
+      "weighted": true,
+      "connected": false,
+      "planar": false
+    },
+    "size": "large",
+    "vertices": 48,
+    "edges": 134
+  },
+  "graph_304": {
+    "author": "Александр Титов",
+    "properties": {
+      "weighted": true,
+      "connected": false,
+      "planar": true
+    },
+    "size": "large",
+    "vertices": 50,
+    "edges": 98
+  },
+  "graph_305": {
+    "author": "Александр Титов",
+    "properties": {
+      "weighted": true,
+      "connected": true,
+      "planar": false
+    },
+    "size": "small",
+    "vertices": 7,
+    "edges": 10
+  },
+  "graph_306": {
+    "author": "Александр Титов",
+    "properties": {
+      "weighted": true,
+      "connected": true,
+      "planar": true
+    },
+    "size": "large",
+    "vertices": 31,
+    "edges": 60
+  },
+  "graph_307": {
+    "author": "Александр Титов",
+    "properties": {
+      "weighted": false,
+      "connected": false,
+      "planar": false
+    },
+    "size": "large",
+    "vertices": 40,
+    "edges": 148
+  },
+  "graph_308": {
+    "author": "Александр Титов",
+    "properties": {
+      "weighted": true,
+      "connected": true,
+      "planar": true
+    },
+    "size": "small",
+    "vertices": 5,
+    "edges": 4
+  },
+  "graph_309": {
+    "author": "Александр Титов",
+    "properties": {
+      "weighted": true,
+      "connected": false,
+      "planar": true
+    },
+    "size": "medium",
+    "vertices": 11,
+    "edges": 15
+  },
+  "graph_310": {
+    "author": "Александр Титов",
+    "properties": {
+      "weighted": true,
+      "connected": true,
+      "planar": false
+    },
+    "size": "large",
+    "vertices": 43,
+    "edges": 60
+  },
+  "graph_311": {
+    "author": "Александр Титов",
+    "properties": {
+      "weighted": true,
+      "connected": true,
+      "planar": true
+    },
+    "size": "large",
+    "vertices": 38,
+    "edges": 129
+  },
+  "graph_312": {
+    "author": "Александр Титов",
+    "properties": {
+      "weighted": false,
+      "connected": false,
+      "planar": true
+    },
+    "size": "small",
+    "vertices": 8,
+    "edges": 8
+  },
+  "graph_313": {
+    "author": "Александр Титов",
+    "properties": {
+      "weighted": false,
+      "connected": false,
+      "planar": true
+    },
+    "size": "large",
+    "vertices": 45,
+    "edges": 120
+  },
+  "graph_314": {
+    "author": "Александр Титов",
+    "properties": {
+      "weighted": false,
+      "connected": true,
+      "planar": true
+    },
+    "size": "small",
+    "vertices": 6,
+    "edges": 5
+  },
+  "graph_315": {
+    "author": "РђР»РµРєСЃР°РЅРґСЂ РўРёС‚РѕРІ",
+    "properties": {
+      "weighted": false,
+      "connected": false,
+      "planar": true
+    },
+    "size": "small",
+    "vertices": 6,
+    "edges": 6
+  },
+  "graph_316": {
+    "author": "Александр Титов",
+    "properties": {
+      "weighted": true,
+      "connected": false,
+      "planar": false
+    },
+    "size": "medium",
+    "vertices": 17,
+    "edges": 49
+  },
+  "graph_317": {
+    "author": "Александр Титов",
+    "properties": {
+      "weighted": true,
+      "connected": true,
+      "planar": false
+    },
+    "size": "large",
+    "vertices": 47,
+    "edges": 84
+  },
+  "graph_318": {
+    "author": "Александр Титов",
+    "properties": {
+      "weighted": false,
+      "connected": false,
+      "planar": false
+    },
+    "size": "medium",
+    "vertices": 24,
+    "edges": 99
+  },
+  "graph_319": {
+    "author": "Александр Титов",
+    "properties": {
+      "weighted": false,
+      "connected": true,
+      "planar": false
+    },
+    "size": "large",
+    "vertices": 32,
+    "edges": 144
+  },
+  "graph_320": {
+    "author": "Александр Титов",
+    "properties": {
+      "weighted": true,
+      "connected": false,
+      "planar": false
+    },
+    "size": "medium",
+    "vertices": 18,
+    "edges": 104
+  },
+  "graph_321": {
+    "author": "Александр Титов",
+    "properties": {
+      "weighted": false,
+      "connected": false,
+      "planar": false
+    },
+    "size": "large",
+    "vertices": 46,
+    "edges": 70
+  },
+  "graph_322": {
+    "author": "Александр Титов",
+    "properties": {
+      "weighted": false,
+      "connected": false,
+      "planar": true
+    },
+    "size": "small",
+    "vertices": 10,
+    "edges": 28
+  },
+  "graph_323": {
+    "author": "Александр Титов",
+    "properties": {
+      "weighted": true,
+      "connected": true,
+      "planar": false
+    },
+    "size": "small",
+    "vertices": 5,
+    "edges": 3
+  },
+  "graph_324": {
+    "author": "Александр Титов",
+    "properties": {
+      "weighted": true,
+      "connected": true,
+      "planar": true
+    },
+    "size": "large",
+    "vertices": 47,
+    "edges": 86
+  },
+  "graph_325": {
+    "author": "Александр Титов",
+    "properties": {
+      "weighted": true,
+      "connected": false,
+      "planar": true
+    },
+    "size": "large",
+    "vertices": 49,
+    "edges": 141
+  },
+  "graph_326": {
+    "author": "Александр Титов",
+    "properties": {
+      "weighted": false,
+      "connected": false,
+      "planar": false
+    },
+    "size": "small",
+    "vertices": 6,
+    "edges": 4
+  },
+  "graph_327": {
+    "author": "Александр Титов",
+    "properties": {
+      "weighted": false,
+      "connected": false,
+      "planar": true
+    },
+    "size": "medium",
+    "vertices": 21,
+    "edges": 106
+  },
+  "graph_328": {
+    "author": "Александр Титов",
+    "properties": {
+      "weighted": true,
+      "connected": true,
+      "planar": false
+    },
+    "size": "medium",
+    "vertices": 17,
+    "edges": 38
+  },
+  "graph_329": {
+    "author": "Александр Титов",
+    "properties": {
+      "weighted": true,
+      "connected": false,
+      "planar": false
+    },
+    "size": "large",
+    "vertices": 50,
+    "edges": 101
+  },
+  "graph_330": {
+    "author": "Александр Титов",
+    "properties": {
+      "weighted": false,
+      "connected": true,
+      "planar": true
+    },
+    "size": "large",
+    "vertices": 50,
+    "edges": 121
+  },
+  "graph_331": {
+    "author": "Александр Титов",
+    "properties": {
+      "weighted": true,
+      "connected": false,
+      "planar": true
+    },
+    "size": "medium",
+    "vertices": 21,
+    "edges": 137
+  },
+  "graph_332": {
+    "author": "Александр Титов",
+    "properties": {
+      "weighted": true,
+      "connected": true,
+      "planar": false
+    },
+    "size": "large",
+    "vertices": 43,
+    "edges": 104
   }
 }
