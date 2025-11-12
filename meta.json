@@ -3980,5 +3980,335 @@
     "size": "small",
     "vertices": 9,
     "edges": 16
+  },
+  "graph_363": {
+    "author": "Клековкин Максим",
+    "properties": {
+      "pseudo": false,
+      "mixed": true,
+      "planar": false
+    },
+    "size": "medium",
+    "vertices": 36,
+    "edges": 55
+  },
+  "graph_364": {
+    "author": "Клековкин Максим",
+    "properties": {
+      "pseudo": false,
+      "mixed": true,
+      "planar": true
+    },
+    "size": "large",
+    "vertices": 77,
+    "edges": 59
+  },
+  "graph_365": {
+    "author": "Клековкин Максим",
+    "properties": {
+      "pseudo": false,
+      "mixed": true,
+      "planar": false
+    },
+    "size": "large",
+    "vertices": 65,
+    "edges": 126
+  },
+  "graph_366": {
+    "author": "Клековкин Максим",
+    "properties": {
+      "pseudo": true,
+      "mixed": false,
+      "planar": true
+    },
+    "size": "huge",
+    "vertices": 111,
+    "edges": 342
+  },
+  "graph_367": {
+    "author": "Клековкин Максим",
+    "properties": {
+      "pseudo": true,
+      "mixed": true,
+      "planar": false
+    },
+    "size": "small",
+    "vertices": 5,
+    "edges": 10
+  },
+  "graph_368": {
+    "author": "Клековкин Максим",
+    "properties": {
+      "pseudo": true,
+      "mixed": true,
+      "planar": true
+    },
+    "size": "huge",
+    "vertices": 111,
+    "edges": 395
+  },
+  "graph_369": {
+    "author": "Клековкин Максим",
+    "properties": {
+      "pseudo": true,
+      "mixed": true,
+      "planar": true
+    },
+    "size": "large",
+    "vertices": 80,
+    "edges": 192
+  },
+  "graph_370": {
+    "author": "Клековкин Максим",
+    "properties": {
+      "pseudo": true,
+      "mixed": false,
+      "planar": false
+    },
+    "size": "medium",
+    "vertices": 33,
+    "edges": 64
+  },
+  "graph_371": {
+    "author": "Клековкин Максим",
+    "properties": {
+      "pseudo": true,
+      "mixed": false,
+      "planar": false
+    },
+    "size": "large",
+    "vertices": 88,
+    "edges": 106
+  },
+  "graph_372": {
+    "author": "Клековкин Максим",
+    "properties": {
+      "pseudo": false,
+      "mixed": true,
+      "planar": false
+    },
+    "size": "medium",
+    "vertices": 45,
+    "edges": 32
+  },
+  "graph_373": {
+    "author": "Клековкин Максим",
+    "properties": {
+      "pseudo": false,
+      "mixed": false,
+      "planar": true
+    },
+    "size": "medium",
+    "vertices": 14,
+    "edges": 43
+  },
+  "graph_374": {
+    "author": "Клековкин Максим",
+    "properties": {
+      "pseudo": true,
+      "mixed": false,
+      "planar": true
+    },
+    "size": "small",
+    "vertices": 7,
+    "edges": 15
+  },
+  "graph_375": {
+    "author": "Клековкин Максим",
+    "properties": {
+      "pseudo": true,
+      "mixed": false,
+      "planar": true
+    },
+    "size": "medium",
+    "vertices": 43,
+    "edges": 19
+  },
+  "graph_376": {
+    "author": "Клековкин Максим",
+    "properties": {
+      "pseudo": true,
+      "mixed": false,
+      "planar": true
+    },
+    "size": "huge",
+    "vertices": 119,
+    "edges": 270
+  },
+  "graph_377": {
+    "author": "Клековкин Максим",
+    "properties": {
+      "pseudo": false,
+      "mixed": false,
+      "planar": true
+    },
+    "size": "huge",
+    "vertices": 118,
+    "edges": 281
+  },
+  "graph_378": {
+    "author": "Клековкин Максим",
+    "properties": {
+      "pseudo": true,
+      "mixed": false,
+      "planar": true
+    },
+    "size": "large",
+    "vertices": 57,
+    "edges": 79
+  },
+  "graph_379": {
+    "author": "Клековкин Максим",
+    "properties": {
+      "pseudo": false,
+      "mixed": true,
+      "planar": true
+    },
+    "size": "huge",
+    "vertices": 117,
+    "edges": 102
+  },
+  "graph_380": {
+    "author": "Клековкин Максим",
+    "properties": {
+      "pseudo": false,
+      "mixed": true,
+      "planar": false
+    },
+    "size": "large",
+    "vertices": 90,
+    "edges": 185
+  },
+  "graph_381": {
+    "author": "Клековкин Максим",
+    "properties": {
+      "pseudo": true,
+      "mixed": true,
+      "planar": false
+    },
+    "size": "medium",
+    "vertices": 15,
+    "edges": 28
+  },
+  "graph_382": {
+    "author": "Клековкин Максим",
+    "properties": {
+      "pseudo": false,
+      "mixed": true,
+      "planar": false
+    },
+    "size": "large",
+    "vertices": 65,
+    "edges": 170
+  },
+  "graph_383": {
+    "author": "Клековкин Максим",
+    "properties": {
+      "pseudo": true,
+      "mixed": true,
+      "planar": false
+    },
+    "size": "medium",
+    "vertices": 17,
+    "edges": 42
+  },
+  "graph_384": {
+    "author": "Клековкин Максим",
+    "properties": {
+      "pseudo": true,
+      "mixed": true,
+      "planar": false
+    },
+    "size": "large",
+    "vertices": 94,
+    "edges": 141
+  },
+  "graph_385": {
+    "author": "Клековкин Максим",
+    "properties": {
+      "pseudo": false,
+      "mixed": true,
+      "planar": false
+    },
+    "size": "medium",
+    "vertices": 31,
+    "edges": 46
+  },
+  "graph_386": {
+    "author": "Клековкин Максим",
+    "properties": {
+      "pseudo": false,
+      "mixed": true,
+      "planar": false
+    },
+    "size": "medium",
+    "vertices": 15,
+    "edges": 54
+  },
+  "graph_387": {
+    "author": "Клековкин Максим",
+    "properties": {
+      "pseudo": true,
+      "mixed": true,
+      "planar": true
+    },
+    "size": "medium",
+    "vertices": 31,
+    "edges": 45
+  },
+  "graph_388": {
+    "author": "Клековкин Максим",
+    "properties": {
+      "pseudo": true,
+      "mixed": false,
+      "planar": false
+    },
+    "size": "large",
+    "vertices": 82,
+    "edges": 62
+  },
+  "graph_389": {
+    "author": "Клековкин Максим",
+    "properties": {
+      "pseudo": true,
+      "mixed": false,
+      "planar": false
+    },
+    "size": "medium",
+    "vertices": 38,
+    "edges": 28
+  },
+  "graph_390": {
+    "author": "Клековкин Максим",
+    "properties": {
+      "pseudo": true,
+      "mixed": true,
+      "planar": true
+    },
+    "size": "huge",
+    "vertices": 102,
+    "edges": 241
+  },
+  "graph_391": {
+    "author": "Клековкин Максим",
+    "properties": {
+      "pseudo": true,
+      "mixed": false,
+      "planar": true
+    },
+    "size": "medium",
+    "vertices": 49,
+    "edges": 22
+  },
+  "graph_392": {
+    "author": "Клековкин Максим",
+    "properties": {
+      "pseudo": true,
+      "mixed": true,
+      "planar": false
+    },
+    "size": "large",
+    "vertices": 65,
+    "edges": 181
   }
 }
