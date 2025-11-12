@@ -1,0 +1,23 @@
+{
+ "author": "Клековкин Максим",
+ "properties": {
+  "pseudo": true,
+  "mixed": true,
+  "planar": false
+ },
+ "size": "small",
+ "vertices": 5,
+ "edges": 10,
+ "edges_list": [
+  {"source": 3, "target": 1},
+  {"source": 2, "target": 2},
+  {"source": 1, "target": 5},
+  {"source": 1, "target": 4},
+  {"source": 4, "target": 2},
+  {"source": 1, "target": 5},
+  {"source": 1, "target": 2},
+  {"source": 5, "target": 4},
+  {"source": 3, "target": 3},
+  {"source": 2, "target": 2}
+ ]
+}
