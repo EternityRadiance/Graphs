@@ -1,0 +1,41 @@
+{
+  "author": "Демчук Михаил",
+  "properties": {
+    "tree": true,
+    "empty": false,
+    "double": true
+  },
+  "size": "small",
+  "vertices": 8,
+  "edges": 7,
+  "edges_list": [
+    {
+      "source": 1,
+      "target": 2
+    },
+    {
+      "source": 5,
+      "target": 6
+    },
+    {
+      "source": 1,
+      "target": 3
+    },
+    {
+      "source": 1,
+      "target": 5
+    },
+    {
+      "source": 1,
+      "target": 7
+    },
+    {
+      "source": 2,
+      "target": 4
+    },
+    {
+      "source": 3,
+      "target": 8
+    }
+  ]
+}

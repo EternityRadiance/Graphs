@@ -1,0 +1,105 @@
+{
+  "author": "Демчук Михаил",
+  "properties": {
+    "tree": false,
+    "empty": false,
+    "double": true
+  },
+  "size": "medium",
+  "vertices": 19,
+  "edges": 23,
+  "edges_list": [
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    }
+  ]
+}

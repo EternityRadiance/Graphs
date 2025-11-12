@@ -1,0 +1,237 @@
+{
+  "author": "Демчук Михаил",
+  "properties": {
+    "tree": false,
+    "empty": false,
+    "double": true
+  },
+  "size": "large",
+  "vertices": 84,
+  "edges": 56,
+  "edges_list": [
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    },
+    {
+      "source": "source",
+      "target": "target"
+    }
+  ]
+}

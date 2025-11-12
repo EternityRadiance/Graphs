@@ -1,0 +1,12 @@
+{
+  "author": "Демчук Михаил",
+  "properties": {
+    "tree": false,
+    "empty": true,
+    "double": true
+  },
+  "size": "medium",
+  "vertices": 47,
+  "edges": 0,
+  "edges_list": []
+}
