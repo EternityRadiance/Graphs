@@ -1,0 +1,29 @@
+{
+    "author": "Субботина Алиса",
+    "properties": {
+        "directed": false,
+        "weighted": true,
+        "connected": true
+    },
+    "size": "small",
+    "vertices": 9,
+    "edges": 16,
+    "edges_list": [
+        {"source":0,"target":5,"weight":4},
+        {"source":1,"target":3,"weight":8},
+        {"source":1,"target":5,"weight":10},
+        {"source":1,"target":6,"weight":9},
+        {"source":1,"target":7,"weight":7},
+        {"source":2,"target":3,"weight":2},
+        {"source":2,"target":6,"weight":10},
+        {"source":2,"target":8,"weight":6},
+        {"source":3,"target":6,"weight":10},
+        {"source":3,"target":8,"weight":7},
+        {"source":4,"target":6,"weight":4},
+        {"source":4,"target":7,"weight":5},
+        {"source":4,"target":8,"weight":3},
+        {"source":5,"target":6,"weight":7},
+        {"source":6,"target":7,"weight":5},
+        {"source":7,"target":8,"weight":5}
+    ]
+}

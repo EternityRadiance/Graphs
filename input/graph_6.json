@@ -1,0 +1,14 @@
+{
+    "author": "Субботина Алиса",
+    "properties": {
+        "directed": false,
+        "weighted": true,
+        "connected": true
+    },
+    "size": "small",
+    "vertices": 1,
+    "edges": 0,
+    "edges_list": [
+        
+    ]
+}
