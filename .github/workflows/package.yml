@@ -24,35 +24,29 @@ jobs:
         GRAPH_NAMES: ${{ github.event.inputs.graph_names }}
         REQUEST_ID: ${{ github.event.inputs.request_id }}
       run: |
-        # Создаем ZIP напрямую с файлами в корне
         ZIP_NAME="graphs-$REQUEST_ID.zip"
         
-        # Создаем пустой ZIP
-        touch "$ZIP_NAME"
+        # Удаляем старый ZIP если существует
+        rm -f "$ZIP_NAME"
         
         IFS=',' read -ra GRAPHS <<< "$GRAPH_NAMES"
         
-        # Скачиваем и добавляем каждый файл в ZIP
+        # Простой вариант: создаем архив напрямую
         for graph in "${GRAPHS[@]}"; do
           graph_clean=$(echo "$graph" | xargs)
           if [ -n "$graph_clean" ]; then
             URL="https://raw.githubusercontent.com/${{ github.repository }}/main/data/${graph_clean}.json"
-            
-            # Скачиваем во временный файл
-            TEMP_FILE="$(mktemp)"
-            if curl -s -f -o "$TEMP_FILE" "$URL"; then
-              # Добавляем файл в ZIP (в корень архива)
-              zip -q -j "$ZIP_NAME" "$TEMP_FILE"
-              # Переименовываем файл внутри ZIP
-              echo "$graph_clean.json" | zipnote -w "$ZIP_NAME"
-            fi
-            rm -f "$TEMP_FILE"
+            curl -s -f -o "${graph_clean}.json" "$URL" && \
+            zip -q "$ZIP_NAME" "${graph_clean}.json" && \
+            rm -f "${graph_clean}.json"
           fi
         done
         
-        # Проверяем, создан ли ZIP
-        if [ -s "$ZIP_NAME" ]; then
-          echo "ZIP created: $ZIP_NAME"
+        # Проверяем результат
+        if [ -f "$ZIP_NAME" ]; then
+          echo "ZIP created: $(ls -lh "$ZIP_NAME")"
+          echo "Files in ZIP:"
+          unzip -l "$ZIP_NAME" | tail -n +4 | head -n -2
         else
           echo "ZIP creation failed"
           exit 1
