@@ -1,0 +1,46 @@
+name: Create Graph Archive
+
+on:
+  workflow_dispatch:
+    inputs:
+      graph_names:
+        description: 'Comma-separated graph names'
+        required: true
+      request_id:
+        description: 'Request ID'
+        required: true
+
+jobs:
+  create-archive:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+      
+    - name: Create ZIP
+      run: |
+        # Создаем временную папку
+        mkdir -p temp_graphs
+        
+        # Разделяем имена графов
+        IFS=',' read -ra GRAPHS <<< "${{ github.event.inputs.graph_names }}"
+        
+        # Скачиваем каждый граф
+        for graph in "${GRAPHS[@]}"; do
+          echo "Downloading: $graph.json"
+          url="https://raw.githubusercontent.com/${{ github.repository }}/main/data/$graph.json"
+          curl -s -o "temp_graphs/$graph.json" "$url" || echo "Failed: $graph"
+        done
+        
+        # Создаем ZIP
+        zip -r "graphs-${{ github.event.inputs.request_id }}.zip" temp_graphs/
+        
+        # Очищаем
+        rm -rf temp_graphs/
+    
+    - name: Upload Archive
+      uses: actions/upload-artifact@v3
+      with:
+        name: graphs-${{ github.event.inputs.request_id }}
+        path: graphs-*.zip
