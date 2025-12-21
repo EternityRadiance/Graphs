@@ -4,43 +4,45 @@ on:
   workflow_dispatch:
     inputs:
       graph_names:
-        description: 'Comma-separated graph names'
+        description: 'Graph names'
         required: true
+        type: string
       request_id:
         description: 'Request ID'
         required: true
+        type: string
 
 jobs:
-  create-archive:
+  create-zip:
     runs-on: ubuntu-latest
-    
     steps:
-    - name: Checkout
+    - name: Checkout repository
       uses: actions/checkout@v4
       
     - name: Create ZIP
+      env:
+        GRAPH_NAMES: ${{ github.event.inputs.graph_names }}
+        REQUEST_ID: ${{ github.event.inputs.request_id }}
       run: |
-        # Создаем временную папку
-        mkdir -p temp_graphs
+        TEMP_DIR="temp_$REQUEST_ID"
+        mkdir -p "$TEMP_DIR"
         
-        # Разделяем имена графов
-        IFS=',' read -ra GRAPHS <<< "${{ github.event.inputs.graph_names }}"
+        IFS=',' read -ra GRAPHS <<< "$GRAPH_NAMES"
         
-        # Скачиваем каждый граф
         for graph in "${GRAPHS[@]}"; do
-          echo "Downloading: $graph.json"
-          url="https://raw.githubusercontent.com/${{ github.repository }}/main/data/$graph.json"
-          curl -s -o "temp_graphs/$graph.json" "$url" || echo "Failed: $graph"
+          graph_clean=$(echo "$graph" | xargs)
+          if [ -n "$graph_clean" ]; then
+            URL="https://raw.githubusercontent.com/${{ github.repository }}/main/data/${graph_clean}.json"
+            curl -s -f -o "$TEMP_DIR/${graph_clean}.json" "$URL" || true
+          fi
         done
         
-        # Создаем ZIP
-        zip -r "graphs-${{ github.event.inputs.request_id }}.zip" temp_graphs/
-        
-        # Очищаем
-        rm -rf temp_graphs/
-    
-    - name: Upload Archive
-      uses: actions/upload-artifact@v3
+        zip -r "graphs-$REQUEST_ID.zip" "$TEMP_DIR/"
+        rm -rf "$TEMP_DIR"
+      
+    - name: Upload artifact
+      uses: actions/upload-artifact@v4
       with:
         name: graphs-${{ github.event.inputs.request_id }}
         path: graphs-*.zip
+        retention-days: 1
